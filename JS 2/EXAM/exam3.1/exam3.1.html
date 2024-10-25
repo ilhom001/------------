@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./exam3.1.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    
+    <div>
+        <input class="search" type="search" placeholder="search">
+        <button class="btnAdd">+ADD</button>
+        <select class="selFilter" name="" id="">
+            <option value="paid">paid</option>
+            <option value="unpaid">unpaid</option>
+            <option value="all">all</option>
+        </select>
+
+        <select class="selFi" name="" id="">
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+            <option value="">all</option>
+        </select>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+              
+                <th><input type="checkbox"></th>
+                <th>name</th>
+              
+                <th>User Status</th>
+                <th>Payment Status</th>
+                <th>Amount</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+
+
+
+
+    <!-- //dialog edit delete -->
+
+    <dialog class="dialogAll">
+        <button class="btnDelete">delete</button>
+        <button class="btnEdit"> edit</button>
+    </dialog>
+
+
+
+    <!-- //add -->
+
+    <dialog class="dialogAdd">
+        <form class="formAdd" action="">
+        <input name="inpImg" type="text" placeholder="img">
+    
+        <input name="inpName" type="text" placeholder="name">
+        
+        <input name="inpEmail" type="text" placeholder="email">
+        <input name="inpAmount" type="number" placeholder="Amount">
+        <select name="selectActiv" id="">
+            <option value="Active">active</option>
+            <option value="Inactive">inactive</option>
+        </select>
+        <select name="selectPaid" id="">
+            <option value="paid">paid</option>
+            <option value="unpaid">unpaid</option>
+        </select>
+        <button type="submit"></button>
+    </form>
+    </dialog>
+
+
+
+
+
+    <!-- //edit -->
+
+    <dialog class="dialogEdit">
+        <form class="formEdit" action="">
+        <input name="inpImg" type="text" placeholder="img">
+    
+        <input name="inpName" type="text" placeholder="name">
+        
+        <input name="inpEmail" type="text" placeholder="email">
+        <input name="inpAmount" type="number" placeholder="Amount">
+        <select name="selectActiv" id="">
+            <option value="active">active</option>
+            <option value="inactive">inactive</option>
+        </select>
+        <select name="selectPaid" id="">
+            <option value="paid">paid</option>
+            <option value="unpaid">unpaid</option>
+        </select>
+        <button type="submit"></button>
+    </form>
+    </dialog>
+
+
+
+    <!-- //filter -->
+
+
+
+
+    <script src="./main.js" type="module"></script>
+</body>
+</html>

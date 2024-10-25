@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./exam3.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div>
+        <input class="search" type="search" placeholder="search">
+        <button class=" btnSort">sort </button>
+        <button class="btnAdd"> + ADD</button>
+        <!-- //cheack -->
+        <button class="checkbtn">checkbtn</button>
+    </div>
+
+
+
+
+    <!-- add -->
+     <dialog class="dialgAdd">
+        <form class="formADD"  action="">
+        <input name="inpImg" type="text" placeholder="img">
+        <input name="inpName" type="text" placeholder="name">
+        <input name="inpComoany" type="text" placeholder="company">
+        <input name="inpRole" type="text" placeholder="role">
+        <select  name="selectAdd" id="">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+
+        </select>
+        <select  name="selectAdddd" id="">
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+        <button type="submit">Add</button>
+
+    </form>
+     </dialog>
+
+
+
+
+     <!-- //edit -->
+
+     <dialog class="dialgEdit">
+        <form class="formEdit"  action="">
+        <input name="inpImgEdit" type="text">
+        <input name="inpNameEdit" type="text">
+        <input name="inpComoanyEdit" type="text">
+        <input name="inpRoleEdit" type="text">
+        <select  name="selectEditdd" id="">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+
+        </select>
+        <select  name="selectEdit" id="">
+            <option value="active">active</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+        <button type="submit"></button>
+
+    </form>
+     </dialog>
+
+
+    <dialog class="dialogs">
+        <button class="userEdit">edit</button>
+        <button class="userDelete">delete</button>
+    </dialog>
+
+
+ 
+
+      <!-- /// dialof for Check -->
+
+     
+      <dialog class="dialogCheak">
+        <h1 class="h2">
+            Are you sure you want to <br> delete this data?</h1>
+            <button  class="butOk">OK</button>
+            <button class="butОТМЕНА">ОТМЕНА</button>
+      </dialog>
+
+
+
+
+
+      <!-- //filter -->
+
+      <select  name="" id="selectFilter">
+        <option value="Active">Active</option>
+         <option value="Inactive">Inactive</option>
+      </select>
+
+    <table>
+        <thead>
+            <tr>
+                <th><input type="checkbox"></th>
+                <th>img</th>
+                <th>name</th>
+                <th>company</th>
+                <th>Role</th>
+                <th>Verefild</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+    <script src="./main.js" type="module"></script>
+</body>
+</html>

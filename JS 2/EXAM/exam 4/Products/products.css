@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.buttonsDiv {
+    display: flex;
+    justify-content: start;
+    gap: 70px;
+    margin-left: 150px;
+    padding-top: 30px;
+    height: 80px;
+}
+
+.BtnHome,
+.BtnProducts,
+.BtnAbout {
+    cursor: pointer;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.imgComfy {
+    margin-left: 90px;
+    font-family: "Charm", cursive;
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+    position: relative;
+    top: -50px;
+}
+
+.imgSupermarket {
+    margin-left: 440px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+}
+
+.HomeProducts {
+    background-color: rgba(241, 245, 248, 1);
+    height: 250px;
+}
+
+.h1HomeProducts {
+    color: rgba(35, 82, 117, 1);
+    font-weight: 600;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 150px;
+    padding-top: 100px;
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+}
+
+.filtration {
+    width: 20%;
+    margin-left: 150px;
+}
+
+.inpSearch {
+    padding: 12px 16px;
+    border-radius: 4px;
+    background-color: rgba(241, 245, 248, 1);
+    border: none;
+}
+
+.h2Company,
+.h2Price {
+    color: rgba(34, 34, 34, 1);
+    font-weight: 600;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nameCompany {
+    color: rgba(35, 82, 117, 1);
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+
+.images {
+    width: 350px;
+}
+
+.box {
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+
+.ProductName {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.38);
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ProductPrice {
+    text-align: center;
+    color: rgba(34, 34, 34, 1);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.container {
+    width: 30%;
+}
+
+.DialogKarzina {
+    width: 430px;
+    height: 800px;
+    margin-left: 69%;
+    position: absolute;
+    bottom: 0px;
+    border: none;
+}
+
+.imageExit {
+    width: 40px;
+    cursor: pointer;
+}
+
+.h1YourBag {
+    text-align: center;
+    font-family: "Charm";
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.dialogdiv {
+    gap: 10px;
+}
+
+.spancnt {
+    font-weight: 700;
+    position: relative;
+    bottom: 5px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.imagedeltefromKorzina {
+    width: 30px;
+    cursor: pointer;
+    position: relative;
+    bottom: 90px;
+    left: 130px;
+}
+
+.totalPriceKorzina {
+    margin-top: 300px;
+}
+
+.h2Total {
+    font-family: "Charm";
+    font-weight: 700;
+    font-size: 25px;
+    display: inline;
+}
+
+.h3TotalPrice {
+    display: inline;
+    font-family: "Charm";
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 300px;
+}
+
+.bntCheck {
+    background-color: rgba(186, 93, 44, 1);
+    padding: 15px 160px;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    margin-top: 20px;
+}
+
+.boxes {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.boxes:hover {
+    transform: scale(1.05);
+}
+
+.iconSearch {
+    display: none;
+}
+
+.iconSearch svg {
+    width: 40px;
+    z-index: 10;
+    position: absolute;
+    margin-bottom: 100px;
+    color: rgba(0, 0, 0, 0.858);
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.iconKarzina {
+    display: none;
+}
+
+.iconKarzina svg {
+    width: 40px;
+    z-index: 11;
+    position: absolute;
+    margin-bottom: 100px;
+    color: rgba(0, 0, 0, 0.858);
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.boxes:hover .iconSearch {
+    display: inline;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.boxes:hover .iconKarzina {
+    display: inline;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.boxes:hover img {
+    opacity: 60%;
+}
+
+/* Responsive Styles */
+@media (max-width: 1000px) {
+    .buttonsDiv {
+        margin-left: 50px;
+        gap: 30px;
+    }
+
+    .imgComfy {
+        margin-left: 30px;
+        font-size: 40px;
+    }
+
+    .imgSupermarket {
+        margin-left: 200px;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filtration {
+        width: 100%;
+        text-align: center;
+    }
+
+    .h1HomeProducts {
+        margin-left: 0;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .box {
+        margin-left: 0;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .DialogKarzina {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .h3TotalPrice {
+        margin-left: 0;
+    }
+
+    .bntCheck {
+        padding: 15px 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .buttonsDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgComfy {
+        font-size: 35px;
+    }
+
+    .imgSupermarket {
+        margin-left: 100px;
+    }
+
+    .h1HomeProducts {
+        font-size: 20px;
+    }
+
+    .ProductName {
+        font-size: 18px;
+    }
+
+    .ProductPrice {
+        font-size: 14px;
+    }
+
+    .DialogKarzina {
+        height: auto;
+    }
+
+    .bntCheck {
+        padding: 15px 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .imgComfy {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .h1HomeProducts {
+        font-size: 18px;
+    }
+
+    .h2Company,
+    .h2Price {
+        font-size: 20px;
+    }
+
+    .bntCheck {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+    .boxes
+    {
+        
+
+    }
+}

@@ -1,0 +1,54 @@
+.userImg
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+     margin-left: 100px;
+}
+.userDetails
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+table
+{
+    width: 99%;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+   margin: auto;
+}
+.boxName
+{
+display: flex;
+width: 200px;
+}
+
+tr
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+th
+{
+    font-size: 20px;
+    height: 40px;
+}
+.ingAction
+{
+    width: 50px;
+}
+.ActionDiv
+{
+    display: flex;
+    gap: 20px;
+}
+.dialogAction
+{
+   margin-left: 80%;
+   width: 150px;
+   height: 150px;
+}

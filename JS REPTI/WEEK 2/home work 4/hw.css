@@ -1,0 +1,51 @@
+.all1
+{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    gap: 20px;
+   
+}
+.p1
+{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    width: 95%;
+    margin: auto;
+}
+.all2
+{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+.all3 img
+{
+    margin-top: 40px;
+    width: 25px;
+    margin: 10px  10px;
+}
+.all4
+{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+
+}
+ .all4 button
+ {
+    text-align: center;
+    
+ }
+.all4 img
+{
+    width: 15px;
+    margin-right: 15px;
+}
+.btnStarted
+{
+    background-color: rgb(205, 200, 200);
+    height: 30px;
+    border-radius: 20px;
+}

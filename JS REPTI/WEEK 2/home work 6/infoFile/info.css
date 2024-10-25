@@ -1,0 +1,41 @@
+.all
+{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    gap: 20px;
+    font-size: 20px;
+}
+.all2
+{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-bottom: 1px solid  black;
+}
+.all3
+{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+  
+}
+.all3 button{
+    width: 150px;
+    height: 60px;
+    font-size: 12px;
+    background-color: #efefef
+}
+.all4
+{
+    
+    width: 60%;
+    margin: auto;
+  
+    margin-top: 100px;
+    border-bottom: 1px solid  black;
+}

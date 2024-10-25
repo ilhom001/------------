@@ -1,0 +1,81 @@
+table
+{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th{
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    height: 40px;
+    font-size: 20px;
+}
+.dialogInfo
+{
+    width: 400px;
+    height: 500px;
+}
+.all1
+{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.dialogAdd
+{
+    width: 20%;
+    height: 400px;
+ margin-top: 20px;
+
+}
+.dialogAdd input
+{
+    width: 95%;
+    margin: auto;
+    height: 30px;
+    margin-top: 40px;
+}
+
+.dialogEdit input
+{
+    width: 95%;
+    margin: auto;
+    height: 30px;
+    margin-top: 40px;
+}
+.addModal
+{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+}
+.btnDelete
+{
+    background-color: red;
+    color: white;
+    margin: 0px 10px;
+}
+
+.btnEdit
+{
+    background-color: green;
+    color: white;
+    margin: 0px 10px;
+}
+.btnInfo
+{
+    background-color: yellow;
+    color: white;
+    margin: 0px 10px;
+}

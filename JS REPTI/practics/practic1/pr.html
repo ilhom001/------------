@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pr.css">
+</head>
+<body>
+
+    <button class="deleteChek">sdcqwkdj</button>
+    <div class="all">
+        <input class="search" type="search" placeholder="search">
+
+        <select class="selectFilter" name="" id="">
+            <option value="">all</option>
+            <option value="true">In stock</option>
+            <option value="false">Out of stock</option>
+        </select>
+        
+
+        <select name="" id="">
+            <option value="Product">Product</option>
+            <option value="Catigories">Catigories</option>
+            <option value="Id">Id</option>
+        </select>
+        <button class="addModal" >+ Add Producr</button>
+    </div>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th><input type="checkbox"></th>
+                <th>#</th>
+                <th style="width: 350px;">Product Detayl</th>
+                <th>Catigories</th>
+                <th>Price</th>
+                <th>QTY</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody class="box">
+       
+        </tbody>
+    </table>
+
+
+
+    <!-- //add -->
+     <dialog class="dialogAdd">
+        <input class="inpImg" type="text" placeholder="img">
+        <input class="inpName" type="text" placeholder="name">
+        <input class="inpEmail" type="text" placeholder="Email">
+        <input class="inpCatigor" type="text" placeholder="catigory">
+        <input class="inpPrice" type="number" placeholder="price">
+        <input  class="inpQTY" type="number"  placeholder="QTY">
+        <select class="sleAdd" name="" id="">
+            <option value="In stock">In stock</option>
+            <option value="Out of stock">Out of stock</option>
+        </select>
+        <button class="save">save</button>
+     </dialog>
+
+
+
+     <!-- //edit -->
+      <dialog class="dialogEdit">
+        <input class="inpImgEdit" type="text" placeholder="img">
+        <input class="inpNameEdit" type="text" placeholder="name">
+        <input class="inpEmailEdit" type="text" placeholder="Email">
+        <input class="inpCatigorEdit" type="text" placeholder="catigory">
+        <input class="inpPriceEdit" type="number" placeholder="price">
+        <input  class="inpQTYEdit" type="number"  placeholder="QTY">
+        <select class="sleEdit" name="" id="">
+            <option value="In stock">In stock</option>
+            <option value="Out of stock">Out of stock</option>
+        </select>
+        <button class="saveEdit">save</button>
+     </dialog>
+
+
+     <!-- //info -->
+      <dialog class="dialogInfo">
+        <div class="infoDiv">
+        <img class="imgInfo" src="./images.jpeg" alt="">
+        <div style="margin-right: 100px;"> 
+            <div style="display: flex; justify-content: space-between;">
+                 <h1 class="hh1">Boat On-Ear Wieles</h1>
+                 <h1 class="Closse">x</h1>
+            </div>
+        
+        <p class="nameInfo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+             Ea, velit fugiat iusto voluptas incidunt, tenetur hic aperiam culpa possimus <br>
+              dolorum sint cupiditate dolor in recusandae. Odit tempore architecto animi in.</p>
+       <img class="infoZvezda" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaDCAaW_NQ33f5-Z1e-v7oYJrUYHHaBZOu5g&s" alt="">
+       <div style="display: flex;">
+           <div>
+            <p class="pcat">Catigoris</p>
+            <p class="pPrice">Price</p>
+            <p class="pQTY">QTY</p>
+        </div>
+        <div style="margin-left: 30px; margin-top:-5px;">
+            <h5 class="hEL">Electronic Honda</h5>
+            <h5 class="hPrice">1243 $</h5>
+            <h5 class="aa">35</h5>
+        </div>
+       </div>
+     
+
+        </div>
+       
+    </div>
+    
+     </dialog>
+    <script src="./pr.js"></script>
+</body>
+</html>

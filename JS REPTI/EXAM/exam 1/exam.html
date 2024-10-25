@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./exam1.css">
+</head>
+<body>
+
+
+    <div class="all">
+        <input  class="search" type="search" placeholder="search">
+          <!-- //select Filter -->
+           <select class="selRilter" name="" id="">
+            <option value="">All</option>
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+           </select>
+           <button class="btnCheak">Cheak</button>
+        <button class="addModal">Add +</button>
+    </div>
+
+
+
+    <!-- //dialog Add -->
+     <dialog class="dialogAdd">
+    <form class="formAdd" action="">
+    <input style="width: 95%; height: 30px; margin: auto;" name="inpImg" type="text" placeholder="Img">
+    <input style="width: 95%; height: 30px; margin: auto; margin-top: 30px;"  name="inpName" type="text" placeholder="Name">
+    <input style="width: 95%; height: 30px; margin: auto; margin-top: 30px;"  name="inpEmail" type="email" placeholder="Email">
+    <input style="width: 95%; height: 30px; margin: auto; margin-top: 30px;"  name="inpContact" type="text" placeholder="Contact">
+    <input style="width: 95%; height: 30px; margin: auto; margin-top: 30px;"  name="inpAge" type="text" placeholder="Age">
+    <input style="width: 95%; height: 30px; margin: auto;  margin-top: 30px;"  name="inpCity" type="text" placeholder="Country">
+    <select style="width: 95%; height: 30px; margin: auto; margin-top: 30px;"  name="selectAdd" id="">
+        <option value="Active">Active</option>
+        <option value="Inactive">Inactive</option>
+    </select>
+
+    <div style="display: flex;justify-content: space-around; margin-top: 30px;">
+    <button style="background-color: aqua; " type="submit">Ok</button>
+    <button style="background-color: brown; color: white;" class="Close">Close</button>
+    </div>
+    </form>
+     </dialog>
+
+
+
+
+        <!-- //dialog edit -->
+        <dialog class="dialogEdit">
+            <form class="formEdit" action="">
+            <input style="width: 95%; height: 30px; margin: auto; margin-top: 30px;" name="inpEditImg" type="text" placeholder="Img">
+            <input style="width: 95%; height: 30px; margin: auto; margin-top: 30px;" name="inpEditName" type="text" placeholder="Name">
+            <input style="width: 95%; height: 30px; margin: auto; margin-top: 30px;" name="inpEditEmail" type="email" placeholder="Email">
+            <input style="width: 95%; height: 30px; margin: auto; margin-top: 30px;" name="inpEditContact" type="text" placeholder="Contact">
+            <input style="width: 95%; height: 30px; margin: auto; margin-top: 30px;" name="inpEditAge" type="text" placeholder="Age">
+            <input style="width: 95%; height: 30px; margin: auto; margin-top: 30px;" name="inpEditCity" type="text" placeholder="Country">
+            <select style="width: 95%; height: 30px; margin: auto; margin-top: 30px;" name="selectEdit" id="">
+                <option value="Active">Active</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+            <div style="display: flex;justify-content: space-around; margin-top: 30px;">
+            <button  style="background-color: blue; color: white; " type="submit">Ok</button>
+            <button style="background-color: brown; color: white;" class="Close">Close</button>
+            </div>
+            
+            </form>
+             </dialog>
+
+
+
+             <!-- //dialog Info -->
+
+
+             <dialog class="dialogInfo">
+             <img class="imgInfos" src="" alt="">
+             <div style="display: flex; flex-direction: column;">
+                <span>Name:</span><h3 class="nameInfo"></h3>
+              <span>Email</span><h4 class="emailInfo"></h4>
+             </div>
+           
+              <span>Contact :   </span> <h4 class="contactInfo"></h4>
+            
+              <span>Country :</span><h4 class="cityInfo"></h4>
+             
+             <button class="Closes">Close</button>
+             </dialog>
+
+
+
+             
+
+    <table>
+        <thead>
+            <tr>
+                <th><input type="checkbox"></th>
+                <th class="thId">    #  <img class="imgIdSearch" src="./d.png" alt=""></th>
+           
+                <th>Castumer Name <img class="imgSort" src="./d.png" alt=""></th>
+
+                <th>Contact</th>
+                <th>Age  <img class="imgSort" src="./d.png" alt=""></th>
+                <th> Country</th>
+                <th>Status</th>
+                <th>Action</th>
+                
+
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+     <script src="./exam1.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div class="main">
+    <input class="search" type="search" placeholder="   search">
+    <select class="select" name="" id="">
+        <option  value="">All</option>
+        <option value="true">Active</option>
+        <option value="false">Inactive</option>
+    </select>
+    <button class="addModal">+ Add</button>
+   </div>
+
+   <div>
+
+       <dialog class="madalka">
+        <div class="child">
+            <input class="addImg" type="text" name="" id="" placeholder="img">
+        <input class="addName" type="text" name="" id="" placeholder="name">
+        <input class="addAge" type="number" name="" id="" placeholder="age">
+        <input class="addCity"  type="text" placeholder="city">
+        <select name="" id="">
+            <option value="true">Active</option>
+            <option value="false">Inective</option>
+        </select>
+        <div style="display: flex; gap: 20px">
+  
+            <button class="Add">Save</button>
+            <button class="close">Close</button>
+        </div>
+        </div>
+       </dialog>
+   </div>
+
+   <table >
+    <thead>
+        <tr>
+            <th>img</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>city</th>
+            <th>Status</th>
+      
+        </tr>
+    </thead>
+
+     <tbody class="option">
+        <!-- <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr> -->
+     </tbody>
+
+   </table>
+    <script src="./pt.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+}
+.asosi{
+
+display: flex;
+height: 600px;
+    margin-top: 2px;
+    margin-bottom: 1%\px;
+    margin: 20px; 
+    padding-left:  30px;
+
+        
+
+}
+.aso2{
+
+    width: 100%;
+    
+     
+    background-color:white;
+
+}
+.aso3,.aso4{
+    width: 100%;
+    
+     
+    background-color:white;
+}
+
+.lavha{
+    
+    color: black;
+    margin: 25px;
+}
+
+.basic{
+    background-color: black;
+    width: 350px;
+    height:85px;
+    color: white;
+    
+}
+.basic h1{
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+.b2,.b3,.b4,.b5{
+    color: black;
+    width: 350px;
+    background-color: white;
+    height:50px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    padding-top: 15px;
+}
+.b6{
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    width: 350px;
+}
+.sign1 {
+    width: 350px;
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    }
+    .signA {
+        display: flex;
+        text-align: center;
+        height: 100%;
+        border-bottom: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+         background-color: #f1f1f1;  
+    }
+    .signup{
+        background-color: rgb(17, 215, 17);
+        width:50%;
+        margin: auto;
+        margin-top: 15px;
+        font-size: 20px;
+        padding: 15px 0;
+        font-weight: 600;
+    }

@@ -1,0 +1,37 @@
+.all
+{
+    display: flex;
+    margin-left: 200px;
+    gap: 20px;
+    
+}
+h1
+{
+font-size: 20px;
+}
+p
+{
+    font-size: 20px;
+}
+.all2
+{
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-between;
+}
+.h11
+{
+    font-size: 30px;
+
+}
+.btnSave
+{
+    background-color: green;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+
+}
+

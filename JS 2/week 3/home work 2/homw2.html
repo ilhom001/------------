@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="./homw2.css">
+     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <input class="inpSearch" type="search" placeholder="search">
+      
+    <!-- //sartirovka -->
+
+    <select class="selectSort" name="" id="">
+        <option value="id">id</option>
+        <option value="name">name</option>
+        <option value="age">age</option>
+    </select>
+
+
+    <div class="all">
+    <button class="btnADD"> + ADD</button>  
+    <select class="selectADD" name="" id="">
+        <option value="">all</option>
+        <option value="true">active</option>
+        <option value="false">inactive</option>
+    </select>
+    </div>
+
+
+
+
+    <!-- //dialog -->
+
+    <dialog class="dialogADD">
+        <form class="formADD">
+        <input name="inpImg" type="text" placeholder="img">
+        <input name="inpName" type="text" placeholder="name">
+        <input name="inpAge" type="text" placeholder="age">
+         <select name="selectADDS" id="">
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+         </select>
+        <input name="inpCountry" type="text" placeholder="country">
+     <button type="submit">ADD</button>
+    </form>
+    </dialog>
+
+
+
+    <!-- //Edit -->
+
+
+    <dialog class="dialogEdit">
+        <form class="formEdit">
+        <input name="inpImg" type="text" >
+        <input name="inpName" type="text">
+        <input name="inpAge" type="text">
+         <select name="selectADDS" id="">
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+         </select>
+        <input name="inpCountry" type="text">
+     <button type="submit">Edit</button>
+    </form>
+    </dialog>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>custorm name</th>
+                <th>contact</th>
+                <th>age</th>
+                <th>country</th>
+                <th>status</th>
+                <th>action</th>
+            </tr>
+        </thead>
+        <tbody class="box">
+         
+        </tbody>
+    </table>
+  
+     <script src="./global.js" type="module"></script>
+</body>
+</html>

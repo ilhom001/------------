@@ -1,0 +1,123 @@
+.box
+{
+    border: 3px solid gray;
+    /* height: 600px; */
+}
+table {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+    
+}   
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+.falseTrue
+{
+   background-color: red;
+   color: white;
+   font-weight: 700;
+}
+th 
+{
+    background-color: lightgrey;
+}
+.buttonshow
+{
+    cursor: pointer;
+    margin: 5px;
+    color: white;
+    background-color: rgb(68, 68, 224);
+    border-radius: 10px;
+    padding: 10px;
+}
+.butedut
+{
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    padding: 10px;
+}
+.butdel
+{
+    cursor: pointer;
+    margin: 5px;
+    color: white;
+    border-radius: 10px;
+    background-color: red;
+    padding: 10px;
+}
+
+.buttons
+{
+    display: flex;
+    /* background-color: aqua; */
+    margin-top: 20px;
+    gap: 70px;
+}
+.search
+{
+    border-radius: 10px;
+}
+.adduserbutton
+{
+    cursor: pointer;
+    padding: 20px;
+    margin-left: 70px;
+    border-radius: 30px;
+    color: white;
+    background-color: green;
+}
+
+.DialogAdd
+{
+    width: 500px;
+    background-color:gray;
+    border-radius: 20px;
+}
+.inputForName
+{
+    width: 450px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.inputForEmail
+{
+    width: 450px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ADD
+{
+    width: 250px;
+    margin-left: 25%;
+    background-color: green;
+    border-radius: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.acinac
+{
+    color: red;
+}
+
+.ActAndInact
+{
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.checkboxbutton
+{
+    cursor: pointer;
+}

@@ -1,0 +1,122 @@
+.div
+{
+    display: flex;
+    flex-direction: column;
+}
+.continer
+{
+    display: flex;
+    width: 250px;
+  
+}
+.img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.table
+{
+    width: 90%;
+    margin: auto;
+
+    margin-top: 100px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th
+{
+    text-align: center;
+    font-size: 25px;
+    border:  1px solid black;
+    height: 40px;
+}
+td
+{
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+.all
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+    margin: auto;
+        margin-top: 50px;
+}
+.all1
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+.addModal
+{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-right: 50px;
+}
+.btnLith
+{
+    width: 100px;
+    height: 40px;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    margin-right: 5px;
+}
+.btnDark
+{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.btnImg
+{
+    width: 20px;
+    height: 20px;
+  
+    
+    border: none;
+    margin-right: 10px;
+}
+.selectStatus
+{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+.selectCity
+{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+.searchInp
+{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+.dialogAdd
+{
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+}
+.imgSort
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.Body {
+    background-color: aqua;
+    background-size: cover;
+}
+
+.formReg {
+    background-color: white;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formLogin {
+    background-color: white;
+       
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.formLogin button, .formReg button{
+    padding: 10px ;
+}
+
+.formReg input {
+    padding: 8px 10px;
+}
+.dialogReg{
+    position: fixed;
+    top: 50%;
+    width: fit-content;
+    left: 50%;
+    padding: 30px;
+    transform: translate(-50%,-50%);
+}
+.dialogLog{
+    position: fixed;
+    top: 50%;
+    width: fit-content;
+    left: 50%;
+    padding: 30px;
+    transform: translate(-50%,-50%);
+}
+
+
+.Back{
+    background-color: #BA5D2C;
+    margin: 30px;
+    width: 100px;
+    padding: 5px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+
+}
+.all
+{
+    display: flex;
+    border: 2px solid black;
+    width: 80%;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+
+}
+.box1
+{
+    background-color: red;
+    height: 50px;
+    width: 10%;
+
+}
+.box2
+{
+    background-color: green;
+    height: 50px;
+    width: 10%;
+    
+}
+.box3
+{
+    background-color: blue;
+    height: 50px;
+    width: 10%;
+    
+}

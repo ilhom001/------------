@@ -1,0 +1,35 @@
+*
+{
+    margin: 0;
+}
+body 
+{
+   
+}
+.ALL
+{
+    border: 2px solid green;
+    margin: auto; 
+}
+
+
+
+table
+{
+border: 2px solid green;
+
+height: 150px;
+width: 700px;
+margin: auto;
+
+
+}
+
+td ,th
+{
+    border: 2px solid green;
+ 
+}
+.sta{
+    text-align: start;
+}

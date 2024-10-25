@@ -1,0 +1,16 @@
+.img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+table
+{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.illimg
+{
+    width: 30px;
+}

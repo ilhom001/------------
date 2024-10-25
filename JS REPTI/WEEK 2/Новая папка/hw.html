@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./re.css">
+</head>
+<body>
+
+    <button class="deletChek">delete</button>
+    <div class="all">
+   
+              <div>
+            <select class="selectSort" name="" id="">
+                <option value="">all</option>
+                <option value="Active">Active</option>
+                <option value="Disabled">Disabled</option>
+            </select>  
+            <input class="search" type="search" placeholder="search" >   
+             </div>
+             <button class="addModal">Add new User</button>
+    </div>
+ 
+
+    <table>
+        <thead>
+            <tr>
+             
+                <th><input type="checkbox"> </th>
+                <th>#  <img class="imgTHId" src="./jj.png" alt=""> </th>
+                <th>Name  <img class="imgTH" src="./jj.png" alt="">  </th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Price</th>
+                <th>Action</th>
+
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+
+
+
+
+    <!-- //dialog Action -->
+
+    <dialog class="dialogAction">
+        <div  style=" display: flex;">
+        <div>
+            <p style="font-size: 20px;">ingo</p>
+            <p  style="font-size: 20px;">Edit</p>
+            <p  style="font-size: 20px; margin-top: 15px;">delete</p>
+         </div>
+         <div style="display: flex; gap: 10px; flex-direction: column;margin: auto;">
+         <img style="width: 40px;" src="./info.png" alt="">
+         <img class="imgEdit" style="width: 40px;" src="./edit.png" alt="">
+
+         <!-- //delet -->
+         <img class="deleteImg" style="width: 40px;" src="./delete.png" alt="">
+     </div>
+     </div>
+        
+     </dialog>
+
+
+
+     <!-- //dialog Add -->
+
+     <dialog class="dialogAdd">
+
+        <form class="formAdd" action="">
+         <input name="inpName" type="text" placeholder="name">
+         <input name="inpPhone" type="number" placeholder="phone">
+         <input name="inpCity" type="text" placeholder="address">
+         <input name="inpEmail" type="text" placeholder="email">
+         <input name="inpPrice" type="text" placeholder="price">
+         <select name="selectAdd" id="">
+            <option value="Active">Active</option>
+            <option value="Disable">Disable</option>
+         </select>
+         <button type="submit">save</button>
+
+          
+        </form>
+     </dialog>
+
+
+
+     <!-- //edit -->
+
+     <dialog class="dialogEdit">
+
+        <form class="formEdit" action="">
+         <input name="inpNameEdit" type="text" placeholder="name">
+         <input name="inpPhoneEdit" type="number" placeholder="phone">
+         <input name="inpCityEdit" type="text" placeholder="address">
+         <input name="inpEmailEdit" type="text" placeholder="email">
+         <input name="inpPriceEdit" type="text" placeholder="price">
+         <select name="selectEdit" id="">
+            <option value="Active">Active</option>
+            <option value="Disable">Disable</option>
+         </select>
+         <button type="submit">save</button>
+
+          
+        </form>
+     </dialog>
+     <script src="./re.js"></script>
+</body>
+</html>

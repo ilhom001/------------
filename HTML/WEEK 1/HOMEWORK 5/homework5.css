@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+}
+.div
+{
+    background-color: rgb(10, 174, 152);
+   height: 100px;
+   padding-left: 45px;
+   padding-top: 30px;
+   color: azure;
+  
+   
+}
+.opshi
+{
+    display: flex;
+
+    
+}
+.n1
+{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+.l1
+{
+   
+   margin-left: 20px;
+   margin-top: 10px;
+   font-size: 17px;
+}
+
+.all
+{
+    
+ 
+    width: 900px;
+    height: 1000px ;
+    margin-left: 25px;
+    margin-top: 20px ;
+    margin-bottom: 100px;
+   
+    
+    
+}
+.v
+{
+  width: 100%;  
+  height: 100%;
+
+
+}
+.text1
+{
+    border-bottom: 0.5px solid rgb(11, 11, 11);
+    border: 1px solid;
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(10, 174, 152);
+    padding: 8px;
+    
+   
+}
+
+.p1{
+ margin-left: 20px;
+ font-size: 20px;
+ color: white;
+
+}
+.p2
+{
+    margin-left: 300px;
+    font-size: 20px;
+    color: white;
+    margin-right: 5px;
+    
+}
+.text2
+{
+    border-bottom: 0.5px solid rgb(11, 11, 11);
+    border: 1px solid;
+   border-left: 1px black ;
+    display: flex;
+    padding: 8px;
+    background-color: white;
+   
+}
+.p3
+{
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+.p4
+{
+    margin-left: 200px;
+    font-size: 20px;
+    color: black;
+}
+.text3
+{
+    border-bottom: 0.5px solid rgb(11, 11, 11);
+    border: 1px solid;
+    display: flex;
+    padding: 8px;
+    background-color: rgb(241, 238, 238);
+    border-left: 1px black ;
+}
+.p5
+{
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+.p6
+{
+    margin-left: 290px;
+    font-size: 1px;
+    color: black;
+}
+.text4
+{
+    border-left: 1px black ;
+    border-bottom: 0.5px solid rgb(11, 11, 11);
+    border: 1px solid;
+    display: flex;
+    padding: 8px;
+    background-color: white;
+   
+}
+.p7
+{
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+.p8
+{
+    margin-left: 295px;
+    font-size: 20px;
+    color: black;
+}
+
+.text5
+{
+    border-left: 1px black ;
+    border-bottom: 0.5px solid rgb(11, 11, 11);
+    border: 1px solid;
+    display: flex;
+    padding: 8px;
+    background-color: rgb(240, 240, 240);
+   
+}
+
+.p9
+{
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+.p10
+{
+    margin-left: 273px;
+    font-size: 20px;
+    color: black;
+}
+.p11
+{
+    font-size: 30px;
+    padding-top: 5px;
+}
+.p21
+{
+    margin-left: 262px;
+    font-size: 20px;
+    color: white;
+}
+.p41
+{
+    margin-left: 202px;
+    font-size: 20px;
+}
+.p61
+{
+    margin-left: 252px;
+    font-size: 20px;
+}
+.p81
+{
+    margin-left: 206px;
+    font-size: 20px;
+}
+.p101
+{
+    margin-left: 251px;
+    font-size: 20px;
+}
+.p211
+{
+    margin-left: 277px;
+    font-size: 20px;
+    color: white;
+}
+.p411
+{
+    margin-left: 242px;
+    font-size: 20px;
+   
+}
+.p611
+{
+    margin-left: 207px;
+    font-size: 18px;
+   
+}
+.p811
+{
+    margin-left: 265px;
+    font-size: 20px;
+  
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./hw2.css">
+ </head>
+ <body class="body">
+
+ 
+
+
+    <div class="all1">
+        <h1>User List</h1>
+        <div>
+            <button class="addModal"> + New</button>
+            <button class="btnLith">Ligth</button>
+            <button class="btnDark">Dark</button>
+        </div>
+    </div>
+
+    <div class="all">
+
+        <div>
+
+     
+    <!-- //status -->
+     <select class="selectStatus" name="" id="">
+        <option value="">All</option>
+        <option value="true">Active</option>
+        <option value="false">Inactive</option>
+     </select>
+  <!-- ////sity -->
+     <select class="selectCity" name="" id="">
+        <option value="">All</option>
+        <option value="Dushanbe">Dushanbe</option>
+        <option value="Kulob">Kulob</option>
+        <option value="Hisor">Hisor</option>
+        <option value="Pomir">Pomir</option>
+     </select>
+    </div>
+  
+     <input class="searchInp" type="search" placeholder="search">
+     
+     
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th><input type="checkbox"></th>
+                <th>  Name  <img class="imgSort" src="./s.png" alt=""> </th>
+                <th>Sity</th>
+                <th>Statys</th>
+                <th>Phone</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+
+
+    <!-- //add -->
+     <dialog class="dialogAdd">
+        <form class="formAdd" action="">
+            <input style="width: 95%; margin: auto; height: 30px; margin-top: 20px;" name="inpImg" type="text" placeholder="img">
+            <input  style="width: 95%; margin: auto; height: 30px; margin-top: 20px;" name="inpName" type="text" placeholder="name">
+            <input  style="width: 95%; margin: auto; height: 30px; margin-top: 20px;" name="inpEmail" type="text" placeholder="email">
+            <input  style="width: 95%; margin: auto; height: 30px; margin-top: 20px;" name="inpSity" type="text" placeholder="Sity">
+            <input  style="width: 95%; margin: auto; height: 30px; margin-top: 20px;" name="inpPhone" type="text" placeholder="Phone">
+            <select  style="width: 95%; margin: auto; height: 30px; margin-top: 20px;" name="selAdd" id="">
+                <option value="Active">Active</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+            <button style="margin-left:30% ; width: 200px ; height: 50px; margin-top: 50px; background-color: blue; color: white; font-size: 20px;" type="submit">save</button>
+        </form>
+     </dialog>
+
+
+     <!-- ///EDIT -->
+
+     <dialog class="dialogEdit">
+        <form class="formEdit" action="">
+            <input name="inpEditImg" type="text" placeholder="img">
+            <input name="inpEditName" type="text" placeholder="name">
+            <input name="inpEditEmail" type="text" placeholder="email">
+            <input name="inpEditSity" type="text" placeholder="Sity">
+            <input name="inpEditPhone" type="text" placeholder="Phone">
+            <select name="selEdit" id="">
+                <option value="Active">Active</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+            <button type="submit">save</button>
+        </form>
+     </dialog>
+      <script src="./hw.js"></script>
+ </body>
+ </html>

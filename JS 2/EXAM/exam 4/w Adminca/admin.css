@@ -1,0 +1,246 @@
+*{margin: 0;}
+
+.all{
+    display: none;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.allshow{
+    /* display: inline; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.boxes{
+    cursor: pointer;
+    text-align: center;
+ box-shadow: 0px 0px 20px 10px lightgray;
+  border-radius: 5px;
+    img{
+        width: 300px;
+        height: 200px;
+        border-radius: 5px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 25px;
+        color: #0000009e;
+        padding: 20px;
+        display: inline;
+    }
+    h4{
+        font-size: 20px;
+        color: #222222;
+        margin: 10px ;
+    }
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.svg
+{
+    svg{
+        width: 30px;
+    }
+}
+.svgDiv
+{
+    svg{
+        width: 30px;
+    }
+}
+.headerDiv{
+    padding: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        font-size: 40px;
+    }p{
+        font-size: 18px;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        button{
+            background-color:#BA5D2C;
+            padding: 10px 20px;
+            font-size: 17px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+        }
+    }
+}
+.searchdiv
+{
+    margin-bottom: 50px;
+    padding: 30px;
+    padding-top: 10px;
+    display: flex;
+    gap: 30px;
+    input{border-radius: 5px;}
+}
+
+    
+.tableclose{
+    display:none;
+}
+
+.imgInTable{
+    width: 60px;
+    height: 60px;
+    
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin: 10px 20px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    thead{
+        th{
+           
+            border-bottom: 1px solid lightgrey;
+            padding-bottom: 20px;
+            font-size: 20px;
+        }
+    }
+}
+.AddModal{
+    width: 400px;
+    height: 1000px;
+    margin-left: 75%;
+    border: none;
+    .xBtn{
+        font-size: 20px;
+        padding: 5px 15px;
+        display: inline;
+        background-color: #BA5D2C;
+        color: white;
+        border-radius: 5px;
+        border: none;
+    }
+    h1{
+        display: inline;
+        margin-left:70px ;
+    }
+    input{
+        width: 300px;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 30px;
+        border-radius: 5px;
+
+    }
+    select{
+        width: 300px;
+        height: 30px;
+        margin-left: 50px;
+        margin-top: 30px;
+        border-radius:5px ;
+    }
+    .Desc{
+        
+        text-align: start;
+        padding-bottom: 100px;
+    }
+    .AddProduct{
+        background-color: #BA5D2C;
+        color: white;
+        border: none;
+    }
+}
+
+.Cansel{
+    width: 127px;
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.AddProduct{
+    display: inline;
+    width: 127px;
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.modalTitel{
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-family: "Charm", cursive;
+}
+.checkoutBtn{
+   position: absolute;
+   margin-left: 30px;
+   width: 350px;
+   height: 40px;
+   font-size: 18px;
+   background-color: #BA5D2C;
+   border-radius: 5px;
+   border: none;
+   color: white;
+}
+.totalDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 550px;
+}
+.btnEdits
+{
+    width: 100px;
+    height: 40px;
+    background-color:blue;
+    color: white;
+  
+    text-align: center;
+
+}
+
+.EditModal{
+    width: 400px;
+    height: 1000px;
+    margin-left: 75%;
+    border: none;
+}
+.EditModal input
+{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.btnEdits
+{
+    margin-right: 10px;
+    background-color: green;
+    color: white;
+}
+.imgs
+{
+    width: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+

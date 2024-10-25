@@ -1,0 +1,711 @@
+*
+{
+    margin: 0%;
+
+}
+.all1
+{
+    display: flex;
+ padding: 30px  0px;
+    justify-content: start;
+    width: 85%;
+    margin: auto;
+   
+
+}
+.im11
+{
+  
+   display: none;
+}
+.all1 img
+{
+  height: 40px;
+}
+
+.all1 p
+{
+padding-left: 70px;
+font-size: 15px;
+margin-top: 10px;
+
+}
+.p11
+{
+margin-left: 400px;
+
+}
+.all1 button
+{
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+}
+.all2
+{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    gap: 40px;
+}
+.box22
+{
+    display: flex;
+}
+.all2 img
+{
+  
+  
+   
+}
+.box21
+{
+
+ padding-top: 30px;
+
+}
+.h21
+{
+    font-size: 40px;
+}
+.p21
+{
+    padding: 50px 0px;
+    font-size: 20px;
+}
+.all2 input
+{
+    height: 40px;
+    width: 200px;
+    font-size: 10px;
+}
+.all2 button
+{
+    background-color: black;
+    color: white;
+}
+.box23
+{
+    display: flex;
+   padding-top: 150px;
+}
+.all3
+{
+    display: flex;
+   
+ 
+  width: 90%;
+    margin-top: 100px;
+    gap: 20px;
+}
+.box31 button
+{
+    width: 120px;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 5px;
+
+}
+.box32
+{
+    display: flex;
+}
+.box32 p 
+{
+    padding-top: 20px;
+    font-size: 15px;
+}
+.box32 img
+{
+    padding-top: 15px;
+}
+.h31
+{
+    padding-top: 40px;
+    font-size: 40px;
+}
+.p31
+{
+    padding: 30px 0px;
+    font-size: 20px;
+}
+.im31
+{
+    height: 80%;
+}
+.all4
+{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    margin-top: 100px;
+    
+    gap: 40px;
+    justify-content: space-between;
+}
+.box42
+{
+    display: flex;
+    padding-top: 50px;
+  
+   
+}
+.h41
+{
+    font-size: 40px;
+    padding-top: 30px;
+}
+.box42 h1
+{
+    font-size: 25px;
+    padding-top: 15px;
+    
+    
+}
+.box42 p 
+{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.all4 button
+{
+    width: 120px;
+    height: 40px;
+}
+.im41
+{
+ 
+height: 50%;
+   
+}
+.all5
+{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    margin-top: 100px;
+    gap: 50px;
+ 
+    
+
+}
+.all5 button
+{
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+}
+.box51
+{
+    padding-top: 100px;
+    text-align: end;
+}
+.im51
+{
+   height: 500px;
+}
+.h51
+{
+    font-size: 40px;
+   padding-top: 20px;
+}
+.p51
+{
+    font-size: 20px;
+    padding-top: 50px;
+}
+.all6
+{
+  display: flex;
+  width: 85%;
+    gap: 20px;
+ justify-content: space-between;
+    margin: auto;
+ 
+    margin-top: 100px;
+}
+.box601
+{
+    display: flex;
+    
+  padding-top: 40px;
+  padding-left: 30px;
+}
+.h61
+{
+    font-size: 60px;
+}
+ .box601 h2
+{
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.p61
+{
+    padding-top: 30px;
+    padding-left: 30px;
+    
+}
+.box602 p 
+{
+    padding-top: 5px;
+}
+.box602
+{
+    display: flex;
+    padding: 30px 30px;
+    font-size: 15px;
+   
+}
+.box61 button
+{
+   margin-top: 200px;
+   margin-left: 25%;
+   width: 50%;
+   height: 40px;
+   background-color: black;
+   color: white;
+   display: block;
+}
+.box62 button
+{
+    width: 50%;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 25%;
+    background-color: white;
+    display: block;
+}
+.box62
+{
+    background-color: black;
+    color: wheat;
+    width: 30%;
+}
+.box61
+{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    width: 30%;
+}
+.box63
+{
+  border: 2px solid black;   
+  
+  width: 30%;
+}
+.box63 button
+{
+    width: 50%;
+    height: 40px;
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    margin-left: 25%;
+    display: block;
+  
+
+}
+.all7
+{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+}
+.h71
+{
+    padding-top: 30px;
+    font-size: 35px;
+}
+.p71
+{
+    padding-top: 50px;
+    font-size: 20px;
+}
+.h72
+{
+    padding-top: 60px;
+    font-size: 25px;
+}
+.p72
+{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.box72
+{
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.h73
+{
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.im71
+{
+    height: 50%;
+    padding-top: 30px;
+}
+.all8
+{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: black;
+}
+.box81 
+{
+    padding: 40px 30px;
+}
+
+.box801
+{
+    display: flex;
+    gap: 10px;
+  padding: 40px 0px;
+}
+.box801 img 
+{
+    border: 1px solid red;
+    
+}
+.box802
+{
+padding: 40px 0px;
+}
+.box802 input
+
+{
+    width: 40%;
+    height: 30px;
+    border: 1px solid white;
+}
+.box802 button
+{
+    height: 35px;
+    background-color: white;
+    color: black;
+}
+.box802 p 
+{
+    padding: 50px 0px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.box82 
+{
+    padding-top: 40px;
+    padding-left: 100px;
+}
+.box82 h1 
+{
+    color: whitesmoke;
+    font-size: 20px;
+   
+}
+.box82 p 
+{
+   padding-top: 30px;
+    color: whitesmoke;
+}
+.box83 
+{
+    color: whitesmoke;
+   padding-top: 10px;
+   padding-left: 50px;
+}
+.box83 p
+{
+    padding-top: 30px;
+}
+.box84 
+{
+    color: whitesmoke;
+   padding-top: 10px;
+   padding-left: 50px;
+}
+.box84 p
+{
+    padding-top: 30px; 
+}
+.box800 input,button
+{
+display: none;
+}
+.box800
+{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:320px)
+{
+    .all1
+    {
+        
+        margin-left: 0px;
+        padding-left: 10px;
+
+    }
+    .all1 p 
+    {
+        display: none;
+    }
+
+     .all1 button
+    {
+        display: none;
+    }
+    .im11
+    {
+        display: block;
+        padding-left: 220px;
+    }
+    .all2
+    {
+        flex-direction: column;
+        margin: 0%;
+        width: 90%%;
+        padding-left: 10px;
+    }
+    .all2 input 
+    {
+        width: 150px;
+    }
+    .h21
+    {
+        font-size: 20px;
+    }
+    .p21
+    {
+        font-size: 12px;
+        width: 300px;
+    }
+    .box23 img
+    {
+        height: 30px;
+    }
+    .box23
+    {
+        padding-top: 60px;
+    }
+    .im21
+    {
+     width: 90%;
+  
+    }
+    .all3
+    {
+        flex-direction: column-reverse;
+      padding-left: 10px;
+    }
+    .im31
+    {
+     width: 99%;
+    }
+    .h31
+    {
+        font-size: 20px ;
+    }
+    .p31
+    {
+        font-size: 12px;
+    }
+ 
+    .box32 p 
+    {
+   
+    font-size: 10px;
+    }
+    .all4
+    {
+        flex-direction: column;
+         margin-left: 10px;
+         width: 90%;
+    }
+    .h41
+    {
+        font-size: 20px;
+    }
+    .box42 h1 
+    {
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    .box42 p 
+    {
+        font-size: 12px;
+    }
+    .box42 img 
+    {
+        height: 60px;
+    }
+    .all4 button 
+    {
+        height: 30px;
+        width: 100px;
+        font-size: 10px;
+    } 
+    .all5
+    {
+        flex-direction: column-reverse;
+    }
+    .im51
+    {
+        height: 250px;
+        width: 95%;
+    }
+    .box51
+    {
+        text-align: start;
+    }
+    .h51
+    {
+        font-size: 20px;
+    }
+    .p51
+    {
+        font-size: 12px;
+    }
+    .all5 button 
+    {
+        height: 30px;
+        width: 100px;
+        font-size: 10px;
+    } 
+    .all6
+    {
+        flex-direction: column;
+      
+        
+    }
+    .box61
+    {
+      width: 100%; 
+      
+    }
+    .box61 button
+    {
+        margin-top: 20px;
+        margin-left: 25%;
+        width: 50%;
+    }
+    .box62
+    {
+      width: 100%;  
+    }
+    .box62 button
+    {
+        margin-left: 25%;
+        width: 50%;   
+    }
+    .box63
+    {
+      width: 100%;  
+    }
+    .box63 button
+    {
+        margin-left: 25%;
+        width: 50%;   
+    }
+    .all7
+    {
+        flex-direction: column;
+    }
+    .h71
+    {
+        font-size: 20px;
+    }
+    .p71
+    {
+        font-size: 12px;
+    }
+    .h72
+    {
+        font-size: 15px;
+    }
+    .p72
+    {
+        font-size: 12px;
+    }
+    .box71 button
+    {
+     width: 150px;
+     height: 40px;
+     font-size: 12px;
+    }
+    .box71 h1 
+    {
+        font-size: 12px;
+    }
+    .all8
+    {
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 0px;
+        width: 98%;
+    }
+    .imend
+    {
+        height: 30px;
+    }
+    .box801 img 
+    {
+       height: 40px;
+       
+    }
+    .box82
+    {
+        display: none;
+    }
+    .box800
+    {
+        display: block;
+        color: whitesmoke;
+        
+    }
+    .box800 h1 
+    {
+        font-size: 14px;
+        padding-left: 90px;
+        
+    }
+  
+    .box800 p 
+
+    {   
+         padding-left: 50px;
+        font-size: 12px;
+    }
+    .box83
+    {
+        padding-top: px;
+        padding-left: 15px;
+    }
+    .box84
+    {
+        padding-top: 40px;
+        padding-left: 10px;
+    }
+ 
+    
+
+
+}
+
+
+

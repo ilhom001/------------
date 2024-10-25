@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+}
+.all1
+{
+
+ height: 120px;
+ width: 150px;
+ 
+}
+.img1
+{
+    height: 120px;
+
+   
+  
+}
+.all2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+  
+}
+.all3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 100px;
+    background-color: white;
+}
+.all4
+{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.all5
+{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}

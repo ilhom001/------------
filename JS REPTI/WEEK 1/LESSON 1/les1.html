@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./les1.css">
+</head>
+<body>
+    <div>
+        <h1> Sat Oct 5 2024</h1> 
+ 
+        <h1 class="date"></h1>
+        <p  class="time"></p>
+        <div class="all">
+            <button>Remuve</button>
+            <button>Sort</button>
+            <button class="Adduser">Add</button>
+        </div>
+         
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Task</th>
+                    <th>Button</th>
+                </tr>
+            </thead>
+
+            <tbody class="box"></tbody>
+        </table>
+    </div>
+
+
+<!-- //add -->
+    <dialog class="dialAdd">
+        <input class="nameInp" type="text" placeholder="name">
+        <button class="ok">ok</button>
+    </dialog>
+
+
+    <!-- //edit -->
+
+    <dialog class="dialEdit">
+        <input class="nameEdit" type="text" placeholder="name">
+        <button class="shange">ok</button>
+    </dialog>
+   
+
+    <script src="./les1.js"></script>
+</body>
+</html>

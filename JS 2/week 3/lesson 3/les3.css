@@ -1,0 +1,65 @@
+.search
+{
+    width: 250px;
+    height: 50px;
+    border: 5px solid black;
+    font-size: 20px;
+     margin-left: 10%;
+}
+.btnA
+{
+    width: 150px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+}
+.selectRegion
+{
+    width: 250px;
+    height: 50px;
+    border: 5px solid black;
+    margin-left: 150px;
+}
+.all
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    gap: 40px;
+}
+.flags
+{
+    width: 300px;
+    height: 150px;
+}
+.div
+{
+    margin: auto;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 2px black;
+}
+.btnSearsh
+{
+    width: 60%;
+    height: 40px;
+    margin-left:20% ;
+    background-color: blue;
+    color: white;
+}
+.boxes
+{
+ display: flex;
+}
+.selectLanguge
+{
+    width: 250px;
+    height: 50px;
+    margin-left:20% ;
+      border: 5px solid black;
+    color: black; 
+}

@@ -1,0 +1,184 @@
+*{ margin: 0px;}
+
+.divSvg
+{
+    display: flex;align-items: center;
+    gap: 200px;
+}
+.userListDiv
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.firstDivsvg
+{
+    background-color:rgba(0, 0, 0, 0.08);
+    display: flex;text-align: center;
+    align-items: center;
+    margin: auto;padding: 5px;
+    border: 1px solid rgb(194, 193, 193);border-radius: 5px;
+    gap: 8px;
+    width: 70px;cursor: pointer;
+    svg{width: 15px;height: 20px;align-content: center;}
+}
+.secondDivsvg
+{
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    margin: auto;padding: 5px;
+    border: 1px solid rgb(194, 193, 193);border-radius: 5px;
+    gap: 8px;
+    width: 70px;cursor: pointer;
+    svg{width: 15px;height: 20px;align-content: center;}
+}
+.newBtn
+{
+    margin: 0px 50px;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;color: white;
+    background-color:green;
+    border-radius: 5px; border: none;
+    cursor: pointer;
+}
+.selectDiv
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.search
+{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 5px;
+    padding: 5px;
+    input{border: none;padding: 10px;}
+    svg{width: 20px;}
+}
+.selects
+{
+    select{margin-right: 10px; padding: 10px;border: 2px solid rgb(208, 208, 208);border-radius: 5px;}
+    
+}
+.thead
+{
+    background-color: rgba(248, 249, 253, 1);
+    font-size: 18px;
+    svg{width: 16px;}
+    th{align-content: center;}
+    height: 50px;
+    border-bottom: 2px solid rgb(158, 158, 158);
+}
+.table
+{
+    background-color: rgba(251, 251, 251, 1);
+    margin: auto;
+    width: 96%;
+    border-collapse: collapse;
+    font-size: 19px;
+    border:1px solid rgb(158, 158, 158);
+}
+.all
+{
+    text-align: center;
+    border-collapse: collapse;
+    td{padding: 5px;border-bottom: 1px solid rgb(194, 193, 193);padding: 10px;}
+}
+.statusInact
+{
+    background-color: red;
+    color: white;
+}
+.statusAct
+{
+    background-color: blue;
+    color: white;
+}
+.actions
+{
+    color: rgb(169, 169, 169);
+    width: 35px;
+    cursor: pointer;
+}
+.actModal
+{
+    
+    position: fixed;
+    z-index: 10;
+    svg{width: 15px;padding-right: 10px;cursor: pointer;}
+    div{margin-bottom:5px; display: flex;text-align: center;cursor: pointer;}
+    margin-top: 400px;
+    margin-left: 700px;
+    width: 20%;
+    height: 200px;
+}
+.x
+{
+    cursor: pointer;
+    text-align: end;
+    margin-bottom: 5px;
+    padding: 2px 3px;color: red;
+}
+.deleteBtn
+{
+    color: red;
+    border-top: 1px solid red;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.selectStatus
+{
+    display:flex;
+    width: 170px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.addModal
+{
+    h3{ width: fit-content;display: inline;}
+    p{cursor: pointer; width: fit-content;padding-left: 80px;display: inline;color: red;}
+    width: 170px;
+    margin-top: 200px;
+    margin: auto;
+    button{cursor: pointer; width: 83px;margin-top: 10px;padding: 5px;border-radius: 5px;}
+    input{margin-top: 10px; cursor: pointer;}
+    .saveBtn{background-color:rgba(33, 150, 243, 1);color: white;border: white;}
+    .cancelBtn{color: rgba(33, 150, 243, 1);border-color: rgba(33, 150, 243, 1);}
+}
+
+.darkBody
+{
+    background-color: black;
+    color:lightgray;
+    .secondDivsvg{color: white;}
+    .selects{select{background-color: rgb(15, 15, 29);border: 2px solid rgb(15, 15, 29);color: white;}}
+    .search{border: 2px solid rgb(15, 15, 29);color: white;}
+    .searchInp{background-color: rgb(15, 15, 29);color:lightgray;border:none;}
+    .table{background-color: rgb(15, 15, 29);}
+    .thead{background-color: rgb(15, 15, 29);}
+    .statusAct{background-color: rgba(31, 173, 31, 0.445);}
+    .newBtn{background-color: rgb(15, 15, 29);}
+    .actModal{background-color: rgb(15, 15, 29);color: lightgray;border:2px solid gray;}
+    .addModal{background-color: rgb(15, 15, 29);color:lightgray;input{background-color: rgb(15, 15, 29);border: 1px solid lightgray;}select{background-color: rgb(15, 15, 29);color: lightgray;}button{background-color: rgb(15, 15, 29);color: lightgray;border:1px solid lightgray;}}
+}
+.profileModal
+{
+    width: 400px;
+    height: 800px;
+    margin-left: 1000px;
+}
+.body
+{
+    width: 70%;
+    margin: auto;
+    border: 2px solid red;
+    margin-top:100px ;
+
+}

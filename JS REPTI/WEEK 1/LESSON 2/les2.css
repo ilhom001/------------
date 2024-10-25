@@ -1,0 +1,50 @@
+.div
+{
+    display: flex;
+    border-bottom: 1px solid black;
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    
+}
+.box{
+  
+    display: flex;
+    
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.continer
+{
+   
+ 
+    width: 450px;
+    height: 270px;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+.img
+{
+    width: 150px;
+    height: 150px;
+
+    margin-left:120px ;
+
+}
+.butEditor
+{
+   margin-left: 200px;
+   margin-top: 20px;
+   width: 100px;
+   height: 30px;
+   font-size: 18px;
+}
+.btnDelete
+{
+   margin-left: 20px;
+   margin-top: 20px;
+   width: 100px;
+   height: 30px;
+   font-size: 18px;
+}

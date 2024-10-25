@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.box
+{
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    margin:  auto;
+    margin-top: 50px;
+}.div2
+{
+  display: flex; 
+  justify-content: space-evenly;
+  
+}
+.userName
+{
+    font-size: 25px;
+}
+.userPrice
+{
+    margin-left: 70px;
+    font-size: 25px;
+}
+.image
+{
+    width: 90%;
+    margin: auto;
+    height: 70%;
+    border-radius: 20px;
+}

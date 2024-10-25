@@ -1,0 +1,53 @@
+
+
+.box1
+{
+    display: flex;
+ 
+    justify-content: space-around;
+    font-size: 15px;
+    
+    padding-top: 20px;
+}
+.homeProduct
+{
+    font-size: 30px;
+    margin-left: 20px;
+    color:  #235275;
+}
+
+.iconMarket {
+    position: relative;
+    display: flex;
+}
+
+.iconMarket span:nth-child(2) {
+    font-size: 14px;
+    position: absolute;
+    background: #BA5D2C;
+    padding: 4px 6px;
+    border-radius: 30px;
+    color: white;
+    top: -5px;
+    left: 40px;
+}
+
+.iconMarket svg {
+    width: 75px;
+    height: 40px;
+
+}
+.boxes
+{
+   margin-left: 40%;
+   margin-top: 150px;
+    display: flex;
+    gap: 20px;
+   
+}
+.lorem
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+}

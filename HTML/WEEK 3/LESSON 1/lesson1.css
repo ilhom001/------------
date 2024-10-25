@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+}
+.all1
+{
+display: flex;
+background-color: white;
+justify-content: space-evenly;
+}
+p{
+    font-size: 10px;
+}
+.all2
+{
+    background-image: url(./IMAGE.png);
+    background-repeat: no-repeat;
+    width: 97%;
+    height: 300px;
+    background-position: 0% 100%;
+ margin-left: 25px;
+ background-color: ;
+
+}
+.all3
+{
+    display: flex;
+justify-content: center;
+gap: 15px;
+padding-top: 40px;
+
+}
+.all4
+{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.im1
+{
+    height: 250px;
+}
+.h1{
+    font-size: 10px;
+    padding-top: 15px;
+    text-align: center;
+}
+.box
+{
+    display: flex;
+gap: 10px;
+padding-top: 15px;
+padding-left: 45px;
+}
+.h0
+{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 50px;
+}
+.all5
+{
+    display: flex;
+    margin-top: 250px;
+    justify-content: center;
+    gap: 10px;
+}
+.h02
+{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 320px;
+}
+.all6
+{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.h03
+{
+    font-size: 18px;
+    padding-top: 30px;
+}
+.h04
+{
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 150px;display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+.im2
+{
+    height: 200px;
+}
+.box61
+{
+    padding-left: 50px;
+}
+.im3
+{
+    height: 220px;
+    margin-top: 50px;
+}
+.h05
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+}
+.all7
+{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 10px;
+}
+.im00
+{
+height: 180px;
+}
+.h00
+{
+    font-size: 10px;
+    padding-top: 20px;
+}
+.p00
+{
+    padding-top: 10px;
+    font-size: 8px;
+}
+.p001
+{
+    padding-top: 15px;
+}
+.all8
+{
+background-color: black;
+height: 200px;
+margin-top: 50px;
+text-align: center;
+margin-left: 20px;
+}
+.all81
+{
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+}
+.end{
+    display: flex;
+    width: 96%;
+    justify-content: center;
+    align-content: center;
+    gap: 10%;
+    margin-top: 30px;
+
+
+}
+
+
+
+

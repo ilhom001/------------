@@ -1,0 +1,88 @@
+.all1
+{
+  display: flex;
+  display: block;
+  font-size: 10px;
+  margin-top: 50px;
+  width: 10%;
+  
+}
+.all2
+{
+  display: flex;
+  justify-content: space-between;
+  border-bottom:  2px solid black;
+  width: 80%;
+ 
+ 
+  height: 100px;
+}
+.all
+{
+display: flex;
+}
+.btnAdd
+{
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: blue;
+  border-collapse: collapse;
+  color: whitesmoke;
+}
+table
+{
+  margin-top: 200px;
+  width: 90%;
+  margin: auto;
+  border: 2px solid black;;
+  border-collapse: collapse;
+  height: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+td
+{
+  border: 2px solid black;
+
+ 
+}
+
+th
+{
+  border: 2px solid black;
+
+}
+.dialogAdds
+{
+    width: 80%;
+    height: 500px;
+}
+input
+{
+width: 99%;
+height: 40px; 
+font-size: 25px; 
+margin-top: 20px;
+border: 2px solid   black;
+
+}
+.Submit
+{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    background-color: green;
+    color: whitesmoke;
+    margin-left: 40%;
+    margin-top: 20px;
+   
+}
+.search
+{
+  width: 350px;
+  height: 50px;
+  margin-left: 30%;
+  margin-bottom: 30px;
+  font-size: 40px;
+}

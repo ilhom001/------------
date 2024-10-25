@@ -1,0 +1,68 @@
+table
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+.formSearch
+{
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.inpSearch
+{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+}
+.iconBtn
+{
+    width: 50px;
+}
+.btnForm
+{
+    font-size: 25px;
+    margin-left: 40px;
+}
+.gitHub
+{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: white;
+   
+}
+td
+{
+    border: 1px solid black;
+    text-align: center;
+}
+.xClose
+{
+    margin-left: 90%;
+    margin-bottom: 90%;
+}
+.divInfo
+{
+    display: flex;
+    text-align: center;
+    width: 30%;
+    gap: 20px;
+    margin: auto;
+    margin-top: -20px;
+}
+.dialogOver
+{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    height: 400px;
+}
+.h1OverXX
+{
+    margin-left: 90%;
+    margin-bottom: 90%;
+}

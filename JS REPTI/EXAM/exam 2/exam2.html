@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./exam2.css">
+</head>
+<body>
+     
+    <button class="btnSorted"></button>
+    <button class="deleteShek">Delete</button>
+
+    <div class="all1">
+        <select class="selectSort" name="" id="">
+            <option value="">all</option>
+            <option value="true">Active</option>
+            <option value="false">Inactive</option>
+        </select>
+        <input class="search" type="search" placeholder="search">
+
+        <button class="addModal">add +</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th><input type="checkbox"></th>
+                <th>Catigory Name</th>
+                <th>Form</th>
+                <th>to</th>
+                <th>Amout Alocated</th>
+                <th>Amout Spent</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+
+    
+
+    <!-- //dialog add -->
+
+    <dialog class="dialogAdd">
+        <form class="formAdd" action="">
+            <input  name="inpJob" type="text" placeholder="job">
+            <input name="inpFormDate" type="date" placeholder="Form">
+            <input name="inpToData" type="date" placeholder="To">
+            <input name="inpPrice" type="number" placeholder="Alocated">
+            <input name="inpSmolPrice" type="number" placeholder="Spent">
+            <select style="width: 95%; margin: auto; margin-top: 40px;" name="selAdd" id="">
+                <option value="Active">Active</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+            <button style="margin-top: 50px; background-color: green; color: white; margin-left: 45%;" type="submit">add</button>
+
+
+        </form>
+    </dialog>
+
+
+
+
+    <!-- //edit -->
+
+    
+    <dialog class="dialogEdit">
+        <form class="formEdit" action="">
+            <input name="inpJobEdit" type="text" placeholder="job">
+            <input name="inpFormDateEdit" type="date" placeholder="Form">
+            <input name="inpToDataEdit" type="date" placeholder="To">
+            <input name="inpPriceEdit" type="number" placeholder="Alocated">
+            <input name="inpSmolPriceEdit" type="number" placeholder="Spent">
+            <select  style="width: 95%; margin: auto; margin-top: 40px;" name="selEdit" id="">
+                <option value="Active">Active</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+            <button  style="margin-top: 50px; background-color: green; color: white; margin-left: 45%;" type="submit">add</button>
+
+
+        </form>
+    </dialog>
+
+
+    <dialog class="dialogInfo">
+        <h1 class="h1InfoJob"></h1>
+      
+            <span>Formdata    :   </span> <span class="formInfo"></span> <br>
+            <span>Todata    :</span> <span class="toInfo"></span>
+      
+    </dialog>
+
+     <script src="./exam2.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+}
+.box1
+{
+    background-color: whitesmoke;
+    border: 5px solid blue;
+    height: 200px;
+    width: 500px;
+    margin: 100px 200px;
+    
+}
+.inp1
+{
+   width: 150px;
+   height: 30px;
+   margin:30px 10px ;
+   background-color: aqua;
+   font-size: 20px;
+
+}
+
+
+.inp2
+{
+   width: 150px;
+   height: 30px;
+   background-color: aqua;
+  font-size: 20px;
+}
+.but
+{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+.h11
+{
+    margin: 0px 20px;
+}

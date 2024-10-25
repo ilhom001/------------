@@ -1,0 +1,48 @@
+.img1
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+}
+table
+{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th
+{
+    border: 1px solid black;
+  
+}
+td
+{
+    border: 1px solid black;
+  
+}
+.btnEdit
+{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100px;
+   
+}
+.btnDelete
+{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 15px;
+
+}

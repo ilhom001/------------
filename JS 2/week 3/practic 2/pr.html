@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pr.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <div>
+        <input class="search" type="search" placeholder="search">
+        <select class="selectFilter" name="" id="">
+            <option value="">All</option>
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+        <button class="btnADD">+ ADD</button>
+
+
+        <!-- //sort -->
+        <select class="selectSort">
+            <option value="name">name</option>
+            <option value="id">id</option>
+        </select>
+    </div>
+
+
+
+    <!-- //add -->
+
+    <dialog class="dialogAdd">
+        <form class="formAdd" action="">
+
+            <input name="inpImg" type="text" placeholder="img">
+            <input name="inpName" type="text" placeholder="name">
+            <input name="inpAge" type="number" placeholder="age">
+            <input name="inpCity" type="text" placeholder="city">
+            <input name="inpPhone" type="number" placeholder="phon number">
+            <select name="selectAdd" id="">
+                <option value="Active">Active</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+            <button type="submit">add</button>
+        </form>
+    </dialog>
+
+
+   <!-- // edit -->
+    <dialog class="dialogEdit">
+        <form class="formEdit" action="">
+
+            <input name="inpImgEdit" type="text" placeholder="img">
+            <input name="inpNameEdit" type="text" placeholder="name">
+            <input name="inpAgeEdit" type="number" placeholder="age">
+            <input name="inpCityEdit" type="text" placeholder="city">
+            <input name="inpPhoneEdit" type="number" placeholder="phon number">
+            <select name="selectEdit" id="">
+                <option value="Active">Active</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+            <button type="submit">save</button>
+        </form>
+    </dialog>
+
+
+   
+
+ 
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>img</th>
+                <th>Name</th>
+                <th>age</th>
+                <th>country</th>
+                <th>Phone</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+    <script src="./main.js" type="module"></script>
+</body>
+</html>

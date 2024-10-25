@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+}
+body{
+  
+}
+.all1
+
+{
+
+   margin-left: 400px;
+}
+
+h1{
+    color: black;
+    font-size: 35px;
+   padding: 50px;
+}
+.box
+{
+ 
+    display: flex;
+}
+.im1
+{
+   height: 400px;
+   padding-top: 30px;
+}
+.p
+{
+    font-size: 30px;
+  padding: 50px;
+}
+
+@media(max-width:1024px)
+{
+    .all1
+    {flex-direction: column;}
+    .img{width: 100%;}
+}
+

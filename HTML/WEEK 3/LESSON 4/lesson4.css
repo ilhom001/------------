@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+
+}
+body{
+    padding: 10px;
+
+}
+.main
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+  
+    justify-items: center;
+    border: 3px solid red;
+    gap: 10px;
+    background-color: black;
+}
+.item
+{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: blue;
+    
+}

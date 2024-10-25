@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+
+    <div class="box">
+
+        <div class="buttons">
+            <button class="adduserbutton">ADD STUDENT</button>
+            <input type="text" class="search" placeholder="search">
+            <select name="" id="ActAndInact" >
+                <option value="all" class="AllStudents">All</option>
+                <option value="active"class="ActiveStudents">Active</option>
+                <option value="inactive"class="InactiveStudents">Inactive</option>
+            </select>
+        </div>
+
+        <dialog class="DialogAdd">
+
+            <h1 style="text-align: center;">ADD NEW STUDENT</h1>
+
+            <input type="text" placeholder="name" class="inputForName"><br>
+            <input type="text" placeholder="email" class="inputForEmail"><br>
+            <button class="ADD">ADD</button>
+
+        </dialog>
+
+
+
+        <dialog class="DialogAdd  DialogEdit">
+            <h1 style="text-align: center;">EDIT STUDENT</h1>
+            <input type="text" placeholder="name" class="inputForName inputforNameEdit"><br>
+            <input type="text" placeholder="email" class="inputForEmail inputForEmailEdit"><br>
+            <button class="ADD EDIT">EDIT</button>
+
+        </dialog>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NAME</th>
+                    <th>EMAIL</th>
+                    <th>COMPLITED</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+          
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

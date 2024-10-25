@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./leso1.css">
+</head>
+<body>
+     
+    <h1 class="h1">Product List</h1>
+    <div style="display: flex;justify-content: space-evenly; margin-top: 30px;">
+
+
+
+        <form class="checForm" action="">
+             <input class="checkUncheck" style="width: 30px;height: 30px;  " type="checkbox" onclick="checkUncheck(this)" /> 
+        </form>
+
+       
+    <input class="inpSearch" type="search " placeholder="search">
+
+        
+    <!-- /// for filter -->
+     <select class="selectSort" name="" id="">
+        <option value="ProductDetal">Product Detal</option>
+        <option value="Categories">Categories</option>
+        <option value="Price">Price</option>
+        <option value="QTV">QTV</option>
+         <option value="Statuc">Statuc</option>
+      
+     </select>
+
+     <button class="butAdd">+ Add</button>
+     <button class="deleteCeck">Delete Check</button>
+  </div>
+
+
+   <!-- /// dialof for Check -->
+      <dialog class="dialogCheak">
+        <h1 class="h2">
+            Are you sure you want to <br> delete this data?</h1>
+            <button  class="butOk">OK</button>
+            <button class="butОТМЕНА">ОТМЕНА</button>
+      </dialog>
+
+   <!-- /// dialof for ADD -->
+   
+        <dialog  class="dialogAdd">
+            <input style="width: 99%; height: 30px; margin-top: 10px;" class="inpImg" type="img" placeholder="img">
+            <input style="width: 99%; height: 30px; margin-top: 10px;" class="inpProduct" type="Product" placeholder="Product">
+             <input style="width: 99%; height: 30px; margin-top: 10px;" class="inpDescription" type="text" placeholder="description">
+            <input style="width: 99%; height: 30px; margin-top: 10px;" class="inpCategories" type="Categories" placeholder="Categories">
+            <input style="width: 99%; height: 30px; margin-top: 10px;" class="inpPrice" type="number" placeholder="Price">
+            <input style="width: 99%; height: 30px; margin-top: 10px;" class="inpQTY" type="QTV" placeholder="QTV">
+            <select style="width: 99%; height: 30px; margin-top: 10px;" class="selectStatus" name="" id="">
+                <option value="true">true</option>
+                <option value="false">false</option>
+            </select>
+            <button class="butSave">Save</button>
+            <button class="butClose">Close</button>
+        </dialog>
+
+
+
+
+   <!-- //// dialg for edit -->
+
+   <dialog class="dialogEdit">
+    <input style="width: 97%; height: 50px; margin-top: 10px; " class="editProduct" type="text ">
+    <input style="width: 97%; height: 50px; margin-top: 15px;"  class="editCategories" type="text">
+    <input style="width: 97%; height: 50px; margin-top: 15px; " class="editPrice" type="number">
+    <input style="width: 97%; height: 50px; margin-top: 15px; " class="editQTY" type="number">
+    <select style="width: 97%; height: 50px; margin-top: 15px;  font-size: 20px;" class="selectEdit" name="" id="">
+        <option  value="true">true</option>
+        <option  value="false">false</option>
+    </select>
+    <button  class="butEdit">Edit</button>
+    <button class="butCloseEdit">Close</button>
+   </dialog>
+
+
+
+
+
+     <!-- //// for info -->
+       
+     <dialog class="dialogInfo">
+        <img class="imgInfo" src="" alt="">
+        <span></span>
+         <h1>indsbpsgd</h1>
+
+         <h3></h3>
+         <span>Categories: </span><span class="spanCati"></span><br>
+         <span>praice: </span><span class="spanPrice"></span><br>
+         <span>QTY: </span><span class="spanQTY"></span><br>
+         <button class="butInfoClose">Close</button>
+     </dialog>
+
+
+      <table>
+        <thead>
+            <tr>
+                <th><input type="checkbox"></th>
+                <th>ID</th>
+                 <th>Product Detal</th>
+                 <th>Categories</th>
+                 <th>Price</th>
+                 <th>QTV</th>
+                 <th>Status</th>
+                <th>Actions</th>
+            </tr>
+           
+        </thead>
+
+        <tbody class="box">
+
+        </tbody>
+      </table>
+
+
+
+    <script src="./les1.js"></script>
+</body>
+</html>

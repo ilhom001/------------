@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./hw4.css">
+</head>
+<body>
+
+    <div style="display: flex; justify-content: space-between; margin: 50px 0px">
+        <h1>User lList</h1>
+        <div style="display: flex; gap: 50px;">
+            <button style="width: 150px; height: 50px; background-color: blue;  color: white;" class="btnAdd">ADD +</button>
+             <div style="display: flex; gap: 10px; width: 150px; height: 50px; background-color: whitesmoke">
+                <div>
+                    <img class="Ligth" style="margin-top: 40%; margin-left: 20px;" src="./light_mode.png" alt="">
+                </div>
+                <div >
+                    <h3 style="font-size: 15px; text-align: center;">LIGTH</h3>
+                </div>
+             </div>
+
+             <div style="display: flex; gap: 10px; width: 150px; height: 50px; background-color: whitesmoke;">
+                <div>
+                    <img class="dark" style="margin-top: 50%; margin-left: 20px;" src="./Vector (1).png" alt="">
+                </div>
+                <div >
+                    <h3 style="font-size: 15px; text-align: center;">DARK</h3>
+                </div>
+             </div>
+        </div>
+    </div>
+
+
+
+    <div style="display: flex; justify-content: space-between; width: 99%; margin-left: 8px; margin-bottom: 50px; ">
+        <select style="width: 200px; height: 40px; font-size: 20px;" class="selFilter"  name="" id="">
+            <option value="">All</option>
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+
+        <input style="width: 250px; height: 40px; font-size: 20px;" class="search" type="search" placeholder="search">
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Adres</th>
+                <th>Status</th>
+                <th>Phone</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+
+
+
+    <!-- //dialog Action -->
+
+    <dialog class="dialogAction">
+       
+        <div  class="ActionDiv">
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <img style="width: 30px;" src="./Icon.png" alt="">
+                <img  class="imgEdit" style="width: 30px; border-bottom: 1px solid black;" src="./edit.png" alt="">
+                <img class="imgDelete" style="width: 30px;" src="./delete.png" alt="">
+            </div>
+            <div >
+                <p style="margin-bottom: 10px;">View profile</p>
+                <p style="border-bottom: 1px solid black; margin-top: 25px;">Edit</p>
+                <p style="margin-top: 25px;">Delete</p>
+            </div>
+        </div>
+    </dialog>
+
+
+
+
+
+    <!-- // dialog add -->
+
+    <dialog class="dialogAdd">
+        <form class="formAdd" action="">
+        <input name="inpImg" type="text" placeholder="img">
+        <input name="inpName" type="text" placeholder="name">
+        <input name="inpEmail" type="text" placeholder="email">
+        <input name="inpAdres" type="text" placeholder="Adres">
+        <input name="inpPhone" type="text" placeholder="Phone">
+        <select name="selAdd" id="">
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+        <button type="submit"> Save</button>
+      
+    </form> 
+     <button class="Close">Close</button>
+    </dialog>
+
+
+
+    <!-- // dialog edit -->
+
+    <dialog class="dialogEdit">
+        <form class="formEdit" action="">
+        <input name="inpImg" type="text" placeholder="img">
+        <input name="inpName" type="text" placeholder="name">
+        <input name="inpEmail" type="text" placeholder="email">
+        <input name="inpAdres" type="text" placeholder="Adres">
+        <input name="inpPhone" type="text" placeholder="Phone">
+        <select name="selAdd" id="">
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+        <button type="submit"> Save</button>
+      
+    </form> 
+     <button class="Closes">Close</button>
+    </dialog>
+    <script src="./hw4.js"></script>
+</body>
+</html>

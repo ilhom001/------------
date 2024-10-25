@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+.comfy
+{
+    font-family: 'Charm', cursive;
+ 
+   font-size: 40px;
+   
+}
+.h1Stayl
+{
+    font-family: 'Rest, Relax, Unwind', cursive;
+    margin-top: 300px;
+    font-size: 50px;
+}
+
+
+.btnss
+{
+    background-color:transparent;
+    border: 3px solid black;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+*
+{
+    margin: 0;
+}
+.all
+{
+    width: 100%;
+    margin: auto;
+    background-image: url(./Rectangle\ 37\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+
+}
+.box1
+{
+    display: flex;
+ 
+    justify-content: center;
+    gap: 140px;
+    font-size: 15px;
+    color: white;
+    padding-top: 20px;
+}
+.box2
+{
+    margin-top: 200px;
+    margin-left: 80px;
+    color: white;
+}
+p{
+    margin: 10px 0px;
+}
+.box3
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.hh1
+{
+color: #ba5d2c;
+
+font-size: 35px;
+margin-right: 5px;
+}
+.imgCarzina
+{
+    width: 50px;
+    background-color: white;
+    color: wheat;
+}
+.box{
+   display: flex;
+   gap: 30px;
+   justify-content: space-around;
+  text-align: center;
+  margin-top: 40px;
+}
+.img
+{
+    width: 100%;
+    height: 300px;
+    
+}
+.btnProduct
+{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #ba5d2c;
+    color: white;
+    margin-top: 200px;
+    margin-left: 45%;
+
+}
+
+
+
+
+
+
+.iconLoop
+{
+    width: 50px;
+}
+.iconCarzinca
+{
+    width: 50px;
+}
+.btnIcon
+{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    gap: 30px;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: transform 0.5s ease-in-out;
+}
+.div:hover .btnIcon{
+    opacity: 1;
+    transform: scale(1);
+}
+.div:hover{
+    opacity: 80%;
+}
+
+
+
+
+
+
+
+
+
+.iconMarket {
+    position: relative;
+    display: flex;
+}
+
+.iconMarket span:nth-child(2) {
+    font-size: 14px;
+    position: absolute;
+    background: #BA5D2C;
+    padding: 4px 6px;
+    border-radius: 30px;
+    color: white;
+    top: -5px;
+    left: 40px;
+}
+
+.iconMarket svg {
+    width: 75px;
+    height: 40px;
+
+}
+
+
+
+
+
+.btnAdmins
+{
+    width: 200px;
+    height: 40px;
+    background-color: aqua;
+}
+.div
+{
+    position: relative;
+    width: 400px;
+    height: 250px;
+   
+    text-align: center;
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    .h1Stayl {
+        font-size: 30px;
+        margin-top: 150px;
+    }
+
+    .comfy {
+        font-size: 25px;
+    }
+
+    .box {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .img {
+        height: 500px;
+        width: 100%;
+       
+    }
+
+    .btnProduct {
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+        margin-left: 40%;
+    }
+
+    .div {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 200px;
+    }
+
+    .btnIcon {
+        width: 40px;
+        gap: 20px;
+    }
+
+    .iconMarket svg {
+        width: 50px;
+    }
+    .btnAdmins
+    {
+        width: 150px;
+        height: 40px;
+        flex-wrap: wrap;
+    }
+    .box1{
+        flex-wrap: wrap;
+    }
+    .box2
+    {
+        text-align: center;
+    }
+    .userName
+    {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./prak.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <input class="search" type="search" placeholder=" search">
+    <button class="btnAdd"> + ADD</button>
+
+
+
+
+
+
+
+
+
+    <!-- //add -->
+
+    <dialog class="dialogADD">
+        <form class="formADD" action="">
+            <input name="inpName" type="text" placeholder="name">
+            <input name="inpAge" type="number" placeholder="age">
+            <input name="inpCity" type="text" city>
+            <select name="selectADD" id="">
+                <option value="trus">true</option>
+                <option value="false">false</option>
+            
+            </select>
+            <button type="submit">ADD</button>
+        </form>
+    </dialog>
+
+
+
+    <!-- //edit -->
+
+    <dialog class="dialogEdit">
+        <form class="formEdit" action="">
+            <input name="inpName" type="text" placeholder="name">
+            <input name="inpAge" type="number" placeholder="age">
+            <input name="inpCity" type="text" city>
+            <select name="selectEdit" id="">
+                <option value="trus">true</option>
+                <option value="false">false</option>
+            
+            </select>
+            <button type="submit">edit</button>
+        </form>
+    </dialog>
+
+
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>age</th>
+                <th>city</th>
+                <th>status</th>
+                <th>actino</th>
+            </tr>
+        </thead>
+
+        <tbody class="box"></tbody>
+    </table>
+     <script src="./main.js" type="module"></script>
+
+</body>
+</html>

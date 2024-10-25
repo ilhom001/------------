@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+}
+.box {
+    width: 32%;
+}
+.box video {
+    width: 100%;
+}
+.all {
+    display: flex;
+    gap: 2%;
+    width: 95%;
+    margin: auto;
+}
+.all1
+{
+    display: flex;
+    gap: 2%;
+    width: 95%;
+    margin: auto;
+    margin-top: 200px;
+    padding: 100px;
+}

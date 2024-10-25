@@ -1,0 +1,95 @@
+.table
+{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    
+    
+}
+th{
+   border: 1px solid black;
+   font-size: 20px;
+   height: 40px;
+   
+    
+}
+.imgs
+{
+    width: 30px;
+   height: 30px;
+   margin-right: 20px;
+}
+.divs2
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+}
+.divs4
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    font-size: 15px;
+}
+.divs3
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+   
+}
+.userWeek
+{
+    margin-top: 0px; 
+}
+.divs
+{
+   background-color: aquamarine;
+     width: 90%;
+   margin-top: 100px;
+   justify-content: space-around;
+  
+
+   
+}
+.continer
+{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 50px;
+  
+}
+.userJob
+{
+   
+}
+.iconDivs
+{
+    width: 30px;
+    height: 30PX;
+}
+.iconTable
+{
+    width: 30px;
+    height: 30px;
+ 
+}
+.alls
+{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.close{
+    display: none;
+}

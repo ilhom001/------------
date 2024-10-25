@@ -1,0 +1,22 @@
+*
+{
+    margin: 0;
+}
+.all{
+
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    background-color: aqua;
+    
+}
+.imp1
+{
+    margin: 30px 100px ;
+    
+}
+.but{
+    margin-left: 100px;
+    width: 50px;
+    background-color: blue;
+}

@@ -1,0 +1,180 @@
+*
+{
+    margin: 0;
+}
+body{
+    width: 90%;
+    margin: auto;
+}
+.all1
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    
+}
+.all2
+{
+margin-left: 10px;
+margin-top: 50px;
+background-color: whitesmoke;
+width: 90%;
+
+
+}
+.impSearch
+{
+    
+    width: 200px;
+    height: 30px;
+}
+.butOnline
+{
+    width: 70px;
+    height: 30px;
+    margin: 0px 20px;
+    background-color: green;
+    color: white;
+    
+}
+.butAll
+{
+    width: 70px;
+    height: 30px;
+
+}
+.butOfline
+{
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    color: white;
+}
+.butView
+{
+    height: 40px;
+    background-color: whitesmoke;
+}
+.butAddMember
+{
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+thead
+{
+    background-color: rgba(248, 249, 253, 1);
+    font-size: 18px;
+  
+    height: 50px;
+    border-bottom: 2px solid rgb(158, 158, 158);
+}
+table
+{
+    background-color: rgba(251, 251, 251, 1);
+    margin-top: 20px;
+    width: 90%;
+    border-collapse: collapse;
+    font-size: 19px;
+    border:1px solid rgb(158, 158, 158);
+}
+.name 
+{
+    font-size: 22px;
+}
+.email
+{
+ 
+    font-size: 20px;
+
+}
+.tdDate
+{
+    border-bottom: 1px solid black;
+}
+.tdSTatus
+{
+    border-bottom: 1px solid black;
+}
+.tdJob
+{
+    border-bottom: 1px solid black;
+}
+.cart
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.NameEmail{
+  text-align: center;
+  margin-left: 30px;
+}
+.img{
+width: 63px;
+height: 63px;
+border-radius: 50%;
+}
+
+.tr{
+    height: 95px;
+    border-collapse: collapse;
+    background-color: whitesmoke;
+}
+
+.cart{
+    height: 95px;
+    border-bottom: 1px solid;
+}
+
+
+.butEdit
+{
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.butDelete
+{
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor:not-allowed;
+    margin-left: 15px; 
+    background-color: whitesmoke;
+}
+.butTD
+{
+    border-bottom: 1px solid black;
+}
+.dialog1
+{
+    width: 15%;
+    height: 400px;
+      margin: auto;
+   
+}
+.input1
+{
+    background-color: green;
+ margin-left: 30px;
+ height: 40px;
+    color: white;
+    width: 50px;
+}
+.Close1
+{
+ background-color: red;
+ color: white;
+ height: 40px;
+ width: 50px;
+
+}

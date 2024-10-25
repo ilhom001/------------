@@ -1,0 +1,164 @@
+.all
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+table
+{
+    width: 80%;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 10%;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+tr{
+    border: 1px solid grey;
+    
+}
+td{
+    padding: 7px;
+}
+th{
+    border: 1px solid grey;
+    padding: 15px;
+    background-color: rgb(212, 212, 212);
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.dialog1{
+    width: 300px;
+    height: 350px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.dialog1::backdrop{
+    backdrop-filter: blur(10px);
+}
+.addImg{
+    width: 280px;
+    height: 45px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 7px;
+}
+.addName{
+    width: 280px;
+    height: 45px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.addCity{
+    width: 280px;
+    height: 45px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.addStatus{
+    width: 285px;
+    height: 50px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.Add{
+    width: 90px;
+    height: 42px;
+    background-color: green;
+    color: white;
+    font-size: 17px;
+    font:700;
+    border: none;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+.close{
+    width: 90px;
+    height: 42px;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    font:700;
+    border: none;
+    border-radius: 7px;
+}
+.delete{
+    width: 60px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font:700;
+    border: none;
+    border-radius: 7px;
+    margin-top: 25px;
+}
+.edit{
+    width: 60px;
+    height: 25px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font:700;
+    border: none;
+    border-radius: 7px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.search{
+    width: 280px;
+    height: 45px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+.select{
+    width: 250px;
+    height: 45px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+.true1{
+    width: 100px;
+    height: 40px;
+    background-color: aqua;
+    color: white;
+
+}
+.false1{
+    width: 100px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+
+
+}
+.plus
+{
+    font-size: 40px;
+    text-align: center;
+}
+.allMember
+{
+    width: 100px;
+    height: 40px;
+    background-color:  grey;
+    color: white;
+
+}

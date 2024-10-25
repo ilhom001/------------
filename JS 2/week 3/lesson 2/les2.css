@@ -1,0 +1,22 @@
+
+.InpforADD
+{
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.TASK
+{
+    width: 100%;
+}
+.btnAdd
+{
+ width: 100px;
+ background-color: blue;
+ color: white;
+ margin: auto;
+ height: 40px;
+}
+.box
+{
+    margin: auto;
+}

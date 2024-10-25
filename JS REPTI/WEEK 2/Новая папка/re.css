@@ -1,0 +1,71 @@
+table
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    height:40px ;
+    font-size: 20px;
+}
+td{
+    border: 1px solid black;;
+}
+.images
+{
+    width: 40%;
+    height: 30px;
+    object-fit: cover;
+}
+.all
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+.imgTH
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.imgTHId
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.search
+{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.addModal
+{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+}
+.selectSort
+{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.dialogAction
+{
+ width: 100px;
+    margin-right: 300px;
+
+}

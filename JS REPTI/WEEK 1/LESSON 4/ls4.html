@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lse.css">
+</head>
+<body>
+    <h1 style="text-align: center; margin-top: 20px;">Cllas List</h1>
+
+    <div class="all">
+        <input style="width: 200px; height: 40px; font-size: 20px;" class="search" type="search" placeholder="search">
+          <button style="width: 200px; height: 40px; font-size: 20px;" class="sortName">sort Bu</button>
+        </select>
+ 
+        <button class="butChek">deletChek</button>
+        <select style="width: 200px; height: 40px; font-size: 20px;" class="selFilter" name="" id="">
+            <option value="">All</option>
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+        <button style="width: 200px; height: 40px; font-size: 20px; background-color: blue; color: white;" class="addUser"> add user</button>
+    </div>
+   
+
+
+    <table>
+        <thead>
+            <tr>
+                <th><input type="checkbox"></th>
+                <th>img</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>status</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody class="box">
+            
+        </tbody>
+    </table>
+
+
+
+
+
+    <!-- //add -->
+
+    <dialog  class="dialogAdd">
+     <form class="formADD" action="">
+        <input   type="text" name="imgA" placeholder="img">
+         <input type="text" name="nameA" placeholder="Name">
+         <input type="number" name="ageA" placeholder="Age">
+           <select name="statusA" id="">
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+           </select>
+         <input type="date" name="dateA" placeholder="Date">
+         <button type="submit">Add</button>
+         <button style="background-color: red;" type="button" class="close">close</button>
+     </form>
+    </dialog>
+
+
+
+    <!-- //edit -->
+
+    <dialog  class="dialogEdit">
+        <form class="formEdit" action="">
+           <input type="text" name="imgE" placeholder="img">
+            <input type="text" name="nameE" placeholder="Name">
+            <input type="number" name="ageE" placeholder="Age">
+              <select name="statusE" id="">
+               <option value="Active">Active</option>
+               <option value="Inactive">Inactive</option>
+              </select>
+            <input type="date" name="dateE" placeholder="Date">
+            <button type="submit">Add</button>
+            <button type="button" class="closeEdit">close</button>
+        </form>
+       </dialog>
+
+
+       
+     <script src="./lse.js"></script>
+</body> 
+</html>

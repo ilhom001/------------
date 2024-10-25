@@ -1,0 +1,93 @@
+.all
+{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+    font-size: 20px;
+}
+.all2
+{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-bottom: 1px solid  black;
+}
+.btnClose
+{
+   
+    color: white;
+    width: 80px;
+    height: 30px;
+    margin-top: 15px;
+    border: 1px solid #2196f3;
+    color: #2196f3;
+    margin-right: 20px;
+}
+.btnSave
+{
+    background-color: #2196f3;
+    color: white;
+    width: 80px;
+    height: 30px;
+    margin-top: 15px;
+    border: none;
+}
+.boxes
+{
+    width: 70%;
+    margin: auto ;
+    border: 1px solid black;
+    margin-top: 50px;
+
+}
+.boxes1 
+{
+
+    width: 98%;
+    margin: auto;
+    input{
+        width: 49%;
+        height: 40px;
+        margin: auto;
+        margin-top: 40px;
+        gap: 20px;
+        font-size: 20px;
+
+    }
+}
+.boxes2
+{
+    width: 98%;
+    margin: auto;
+    select{
+        width: 49%;
+        height: 40px;
+        font-size: 20px;
+    }
+    input
+    {
+        width: 49%;
+        height: 40px;
+        margin: auto;
+        margin-top: 40px;
+        gap: 20px;
+        font-size: 20px;
+    }
+}
+.boxes3
+{
+    display: flex;
+    flex-direction: column;
+    input {
+        width: 98%;
+        height: 150px;
+        margin: auto;
+        margin-top: 40px;
+        gap: 50px;
+        font-size: 25px
+
+    };
+}

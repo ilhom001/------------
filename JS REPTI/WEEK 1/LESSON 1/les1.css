@@ -1,0 +1,30 @@
+table
+{
+    width: 60%;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+}
+h1
+{
+    text-align: center;
+}
+.all
+{
+    text-align: center;
+    margin: 50px 0px ;
+}
+th
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.time
+{
+    text-align: center;
+}

@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+.comfy
+{
+    font-family: 'Charm', cursive;
+ 
+   font-size: 40px;
+   
+}
+.imgMadal
+{
+    width: 100%;
+    height: 200px;
+
+}
+
+
+    
+  
+.box
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    gap: 15px;
+   
+}
+.alls
+{
+    display: flex;
+}
+
+
+.box1
+{
+    display: flex;
+ 
+    justify-content: space-around;
+    font-size: 15px;
+    
+    padding-top: 20px;
+}
+.imgCarzina
+{
+    width: 40px;
+    background-color: white;
+    height: 45px;
+    
+}
+.homeProduct
+{
+    font-size: 30px;
+    margin-left: 20px;
+    color:  #235275;
+}
+.img
+{
+    width: 100%;
+    height: 60%;
+}
+.div
+{
+    position: relative;
+    width: 350px;
+    height: 300px;
+   
+    text-align: center;
+
+    
+    
+}
+.boxElement
+{
+   
+    flex-wrap: wrap;
+    width: 90%;
+
+    margin: auto;
+   
+
+}
+.DialogKarzina
+{
+    height: 100%;
+    width: 300px;
+    margin-left: 1200px;
+
+}
+.search
+{
+    width: 200px;
+    height: 30px;
+     margin-top: 100px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+    margin-left: 100px;
+}
+p{
+    color: #235275;
+    margin-left: 100px;
+}
+.iconLoop
+{
+    width: 50px;
+}
+.iconCarzinca
+{
+    width: 50px;
+}
+.btnIcon
+{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    gap: 30px;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: transform 0.5s ease-in-out;
+}
+.div:hover .btnIcon{
+    opacity: 1;
+    transform: scale(1);
+}
+.div:hover{
+    opacity: 80%;
+}
+
+
+
+.h1X
+{
+    margin-top: 0px;
+    margin-left: 0px
+}
+
+
+
+
+
+
+
+
+
+.iconMarket {
+    position: relative;
+    display: flex;
+}
+
+.iconMarket span:nth-child(2) {
+    font-size: 14px;
+    position: absolute;
+    background: #BA5D2C;
+    padding: 4px 6px;
+    border-radius: 30px;
+    color: white;
+    top: -5px;
+    left: 40px;
+}
+
+.iconMarket svg {
+    width: 75px;
+    height: 40px;
+
+}
+
+.userPrice
+{
+    text-align: center;
+    font-size: 20px;
+}
+.h1Madal
+{
+    text-align: center;
+    font-size: 20px;
+}
+.userName
+{
+   margin-left: 0px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    .box {
+        grid-template-columns: repeat(1, 1fr); 
+        width: 90%;
+        margin-top: 50px;
+        gap: 10px;
+    }
+    .box1{
+        width: 100%;
+    }
+
+    .div {
+        width: 100%; 
+        height: auto;
+    }
+
+    .imgMadal {
+        height: 150px; 
+    }
+
+    .imgCarzina {
+        width: 30px; 
+        height: 35px;
+    }
+
+    .homeProduct {
+        font-size: 24px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .img {
+        height: auto;
+    }
+
+    .search {
+        width: 150px;
+        margin-left: 50px;
+    }
+
+    p {
+        margin-left: 50px;
+    }
+
+    .dialogInfo {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .iconMarket svg {
+        width: 50px;
+        height: 30px;
+    }
+
+    .userPrice {
+        font-size: 16px;
+    }
+
+    .h1Madal {
+        font-size: 18px;
+    }
+
+    .btnIcon {
+        width: 40px;
+        gap: 20px;
+    }
+    .selectNAn
+    {
+        display: none;
+    }
+  
+}

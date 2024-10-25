@@ -1,0 +1,87 @@
+.search{
+    width: 250px;
+    height: 56px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 7px;
+}
+.select
+{
+    width: 250px;
+    height: 56px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 7px;
+
+}
+.addModal
+{
+ width: 130px;
+ height: 50px;
+ background-color: green;
+ color: white;
+ border-radius: 7px;
+ border: none;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+table
+{
+    width: 80%;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: 20px;
+    border: 1px solid grey;;
+    text-align: center;
+    border-collapse: collapse;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:  1px solid grey;
+
+}
+tr
+{
+    border:  1px solid grey;
+}
+th{
+    padding: 15px;
+}
+.butDelete
+{
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    margin-left: 10px;
+}
+.butEdite
+{
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    margin-left: 10px;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.madalka{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+}
+.madalka::backdrop{
+    backdrop-filter: blur(5px);
+}

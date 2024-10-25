@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./hw3.css">
+</head>
+<body>
+    <div class="all">
+          <button class="Add">Add new</button>
+    <h3>Shoiwing 1 TO 10  OF 150  ENTRIES</h3>
+    <select  class="selSort" name="" id="">
+        <option value="">all</option>
+        <option value="Action">Action</option>
+        <option value="Inactive">Inactive</option>
+    </select> 
+      <button class="sort">Sort</button>
+    <input class="search" type="search" placeholder="search">
+    </div>
+    
+
+    <table>
+        <thead>
+            <tr>
+                <th>Images</th>
+                <th>Product Name</th>
+                <th>Stock</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+
+
+
+    <!-- add -->
+
+    <dialog class="dialAdd">
+        <input class="inpImg" type="text" placeholder="img">
+        <input class="inpName" type="text" placeholder="name">
+        <input class="inpEmail" type="text" placeholder="email">
+        <input class="inpStock" type="number" placeholder="stock">
+        <select class="selectActiv" name="" id="">
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+        <button class="btnAdd">save</button>
+    </dialog>
+
+
+    
+    <dialog class="dialEdit">
+        <input class="inpImgE" type="text" placeholder="img">
+        <input class="inpNameE" type="text" placeholder="name">
+        <input class="inpEmailE" type="text" placeholder="email">
+        <input class="inpStockE" type="number" placeholder="stock">
+        <select class="selectActivE" name="" id="">
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+        <button class="btnEdit">save</button>
+    </dialog>
+
+ 
+    <script src="./hw3.js"></script>
+</body>
+</html>

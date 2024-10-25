@@ -1,0 +1,231 @@
+.h1
+{
+    text-align: center;
+}
+.inpSearch
+{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    background-color: blanchedalmond;
+   
+}
+.butAdd
+{
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+}
+.selectSort
+{
+    width: 200px;
+    height: 40px;
+    background-color: aqua;
+    color: rgb(157, 0, 0);
+
+}
+.deleteCeck
+{
+    width: 100px;
+    height: 30px ;
+}
+.h2
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.butOk
+{
+    width: 45%;
+    height: 30px;
+    background-color: red;
+    margin-left: 10px;
+}
+.butОТМЕНА
+{
+    width: 45%;
+    height: 30px;
+    background-color: blue;
+}
+table
+{
+ 
+    width: 90%;
+    height: 20px;
+    margin: auto; 
+      margin-top: 100px;
+      border-collapse: collapse;
+      border: 1px solid black;
+      text-align: center;
+      
+}
+.divAll
+{
+    display: flex;
+}
+.img
+{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.box
+{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+
+tr{
+    border: 1px solid black;
+    
+}
+.userEdit
+{
+   width: 100px;
+   height: 40px;
+   background-color: aqua;
+   color: white;
+   margin-right: 10px;
+   border: none;
+}
+.userDelete
+{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.dialogEdit
+{
+    width: 600px;
+    height: 500px;
+    margin-top: 200px;
+    margin: auto;
+}
+.dialogEdit::backdrop
+{
+    backdrop-filter: blur(5px)
+}
+.butEdit
+{
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border: none;
+  font-size: 15px;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 30%;
+
+}
+.butInfo
+{
+    width: 80px;
+    height: 40px ;
+    background-color: blue;
+    font-size: 15px;
+    margin-left: 10px;
+    border: none;
+    color: white;
+}
+
+.butCloseEdit
+{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+.deleteCeck
+{
+    width: 150px;
+    height: 40px ;
+    background-color: red;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.dialogInfo
+{
+    width: 90%;
+    height: 800px;
+    margin-top: 100px;
+    margin: auto;
+}
+.butInfoClose
+{
+    width: 70px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-top: 200px;
+    margin-left: 45%;
+   
+}
+.dialogCheak
+{
+    width: 400px;
+    height: 200px;
+   
+    margin: auto; 
+    margin-top: 200px;
+}
+.dialogCheak::backdrop
+{
+    backdrop-filter: blur(4px)
+}
+
+.dialogAdd
+{
+    width: 500px;
+    height: 450px;
+    border: 5px solid black;
+    box-shadow: 0px 0px 10px black;
+}
+.dialogAdd::backdrop
+{
+    backdrop-filter: blur(3px)
+}
+.butSave
+{
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 20%;
+}
+
+.butClose
+{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20%;
+}
+.dialogEdit
+{
+ 
+    border: 5px solid black;
+    box-shadow: 0px 0px 10px black;
+}
+

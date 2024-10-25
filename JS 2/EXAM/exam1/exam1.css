@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+}
+.teb1
+{
+    margin: auto;
+    margin-top: 200px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.hed1
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+tr
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+th
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+

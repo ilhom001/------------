@@ -1,0 +1,140 @@
+.all1
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    border-bottom: 1px solid black;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+.but1
+{
+    height: 40px;
+    background-color: blue;
+    color: white;
+}
+.inpSearch
+{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+.all2
+{
+    display: flex;
+    justify-content: space-around;
+}
+table{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+tr
+{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td
+{
+    text-align: center;
+    border: 1px solid black;
+ 
+}
+.box{
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+.btnsort{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(180, 144, 214);
+    color: white;
+    border: none;
+   
+}
+.dialogLevel
+{
+    width: 200px;
+    height: 100px;
+  
+}
+
+.dialogLevel::backdrop{
+    backdrop-filter: blur(10px);
+}
+.butChoice
+{
+    background-color: rgb(72, 180, 144);
+    width: 100px;
+    height: 50px;
+}
+.dialogChoice
+{
+    width: 25%;
+    height: 320px;
+    margin: auto;
+}
+.dialogChoice::backdrop{
+    backdrop-filter: blur(5px);
+}
+.selectCati
+{
+   margin-left: 42%;
+   height: 40px;
+   background-color: blue;
+   color: white;
+}
+.butChuse
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(72, 180, 144);
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-left: 42%;
+}
+.selectLevel
+{
+  
+    height: 40px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+}
+.butCloseAll
+{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 20%;
+    margin-left: 45%;
+}
+.butLevelClose{
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+  
+}
+.butLevelCloseAll
+{
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    
+}
+

@@ -1,0 +1,68 @@
+{
+    margin: 0;
+}
+.all
+{
+ margin-top: 20px;
+height: px;
+padding: 0px;
+
+}
+p
+{
+margin-left: 0px;
+margin-top: 0px;
+}
+.all1
+{
+    display: flex;
+    justify-content: center;
+padding: 15px ;
+
+ 
+}
+.b1
+{
+margin: 0px;
+
+
+}
+.b2
+{
+margin: 0px;
+border: 0px;
+}
+
+input::placeholder
+{
+accent-color: red;
+    font-size: 7px;
+    text-align: start;
+    display: flex;
+    align-items: flex-start;
+
+    
+
+}
+.inpend
+{
+text-align: center;
+width: 98%;
+background-color: blue;
+
+}
+.inpend::placeholder
+{
+    text-align: center;
+    display: flex;align-items: center;
+    color: white;
+    font-size: 15px;
+}
+.rad1
+{
+margin-left: 90px;
+}
+.rad2
+{
+margin-left: 70px;
+}

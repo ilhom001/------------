@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="./hw5.css">
+</head>
+<body>
+    <button class="deletChek">chek</button>
+    <div class="all">
+        <input class="search" type="search" placeholder="search">
+        <select class="filterStatus" name="" id="">
+            <option value="">All</option>
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+
+        <button class="btnFilter"> Filter</button>
+         <button class="btnAdd">Add users</button>
+    </div>
+
+
+
+    <!-- //dialog Add -->
+     <dialog class="dialogAdd">
+        <form class="formAdd" action="">
+            <input name="imgA" type="text" placeholder="Img">
+            <input name="nameA" type="text" placeholder="Name">
+            <input name="cityA" type="text" placeholder="City">
+            <input name="birthA" type="date" placeholder="Birth Date">   
+            <select name="statusA" id="">
+                <option value="Active">Active</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+            <button type="submit">Ok</button>
+        </form>
+     </dialog>
+
+
+
+         <!-- //dialog Edit -->
+         <dialog class="dialogEdit">
+            <form class="formEdit" action="">
+                <input name="imgE" type="text" placeholder="Img">
+                <input name="nameE" type="text" placeholder="Name">
+                <input name="cityE" type="text" placeholder="City">
+                <input name="birthE" type="date" placeholder="Birth Date">   
+                <select name="statusE" id="">
+                    <option value="Active">Active</option>
+                    <option value="Inactive">Inactive</option>
+                </select>
+                <button type="submit">Ok</button>
+            </form>
+         </dialog>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th><input type="checkbox"></th>
+                <th>Img</th>
+                <th>Name</th>
+                 <th>City</th>
+                <th>Birth Date</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody class="box"></tbody>
+    </table>
+    <script src="./hw5.js"></script> 
+</body>
+</html>

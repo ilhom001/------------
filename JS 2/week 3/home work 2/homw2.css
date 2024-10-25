@@ -1,0 +1,125 @@
+.all
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.btnADD
+{
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.inpSearch
+{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    color: red;
+    border: 5px solid black;
+}
+.selectADD
+{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: 5px solid black;
+
+}
+table{
+    border: 2px solid black;
+    width: 90%;
+    text-align: center;
+  
+      margin: auto;
+      margin-top: 40px;
+     
+    tbady{
+        td{
+            text-align: center;
+        }
+    }
+ 
+}
+thead{
+    th{
+        text-align: center;
+    }
+}
+tr
+{
+    font-size: 20px;
+}
+.img1
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   margin-left: 50px;
+}
+.imgInfo
+{
+    width: 30px;
+    height: 30px;
+}
+.btnInfo
+{
+    width: 80px;
+    height: 30px;
+    background-color: burlywood;
+}
+.btnEdit
+{
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+}
+.btnDelete
+{
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+}
+.sartirovka
+{
+    width: 200px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 500px){
+    table{
+        width: 100%;
+     overflow-x: auto;
+     display: block;
+     white-space: nowrap;
+    }
+
+    .inpSearch
+    {
+        margin-left: 30%;
+    }
+
+}
+
+
+
+

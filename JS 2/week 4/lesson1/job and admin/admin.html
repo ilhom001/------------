@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./admin.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="all">
+    <div class="all1">
+        <h1>  <a href="../first/global.html">MAIN</a>  </h1>
+        <h1> <a href="../Second/second.html">JOB SEARCH</a> </h1>
+        <h1>ADMIN</h1>
+    </div>
+
+
+
+    <div class="all2">
+  
+        <h1>Job ad admin</h1>
+        <button class="btnAdd" > Create New</button>
+    </div>
+   
+    
+</div>
+
+
+ <input class="search" type="search" placeholder="search">
+<table>
+    <thead>
+        <tr>
+            <th>Tittle</th>
+            <th>Catigory</th>
+            <th>Levele</th>
+            <th>Location</th>
+            <th>Phone number</th>
+            <th>Application</th>
+            <th>Closing</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody class="box">
+        
+    </tbody>
+</table>
+
+<!-- //add -->
+<dialog class="dialogAdds">
+    <form class="formADD"  action="">
+    <input name="inpTitle"  type="text" placeholder="Tittle">
+    <input name="inpCatigori" type="text" placeholder="Catigori">
+    <input name="inpLevel" type="text" placeholder="Level">
+    <input name="inpLocation" type="text " placeholder="Location">
+    <input name="inpNumber" type="number" placeholder="Number">
+    <input name="inpAppliction" type="text" placeholder="Application">
+    <button class="Submit" type="submit">save</button>
+ </form>
+ </dialog>
+
+
+
+
+ <!-- //edit -->
+
+ <dialog class="dialogEdit">
+    <form class="formEdit"  action="">
+    <input name="inpTitle"  type="text" placeholder="Tittle">
+    <input name="inpCatigori" type="text" placeholder="Catigori">
+    <input name="inpLevel" type="text" placeholder="Level">
+    <input name="inpLocation" type="text " placeholder="Location">
+    <input name="inpNumber" type="number" placeholder="Number">
+    <input name="inpAppliction" type="text" placeholder="Application">
+    <button class="Submit" type="submit">save</button>
+ </form>
+ </dialog>
+
+
+
+
+     <script src="./main4.js" type="module"></script>
+</body>
+</html>

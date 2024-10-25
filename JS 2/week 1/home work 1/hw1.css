@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+}
+body
+{
+    background-color: purple;
+}
+.images
+{
+    
+    width: 250px;
+    border-radius: 30px;
+    border: 5px solid purple;
+    height: 250px;
+}
+.container
+{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin:50px auto ;
+    gap: 10px;
+   
+    align-items: center;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 70px;
+    width: 350px;
+    border-radius: 25px;
+    background-color:white;
+}
+    .buttons
+{
+    gap: 20px;
+    display: flex;
+    padding: 10px;
+}
+.buttons button
+{
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 15px 10px;
+    font-size: 18px;
+}
+.text1
+{
+    padding-top: 30px;
+}
